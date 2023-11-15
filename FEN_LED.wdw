@@ -1,0 +1,307 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_LED
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_LED
+ identifier : 0x2f4d0775266b8ccd
+ internal_properties : CAAAAAgAAAAIH0tc0xEGOeGC9XoNQOv+i0dZ8HdfBnxOKZBQxohPy3vw8Sn9FJDxXpnAkusdi6C5yjDjbRlndfxPs2v0+Eiuhujr3/bBBJyIFTaFglQzWrsrhrTA5TiabXx8atw+t7x6HC3J9twLiRlDS8ZFX298m1Ba33kbIAA1+sbMOxgexcpdQrUs3gUgFyvqVf9TbjZf+8kitJ6KVYwesfgenvveXpW/RgosjoxYg3YoDNDVgJ8OlAGF+SgVx2c/+rEiAXELnfzFHVh7Gt3dYZEyYwmnSvlBgiHYT2+dxFsi4AbqIWXq8YTiCuYQS+nUcG/TPnQHqkRsGKcXwGbYuRV/vy+nn1f7tmQ9ojuXtnXDh/i7X086XFWyxnb7QtedqozHaDI52NzEQglhSQV6TYE+m2BSy/CsXy1Tn8EF6kUNG2Hpdw2ylKw9ktxAlLL/PFkw5B1vv03qywJG2zwPrOIkU8PKZULpXlGcAs6A/j1YR3SPh91EX3Tg53LQfaWKEZbYnQp65nGje2CoFS54S4/VPxOlFux/d3ka58hDZSvPlWY4CCCnnoK2N9NyIqHc83CVZ6fYKW5slDR1QSUzpL5lRBDKF3N+/zL+79MLvmwuHUftafo3XeML95DIi4dZ58o5zsIFnzoz8ToFIVHUOEqX8lYerngFh/8QcFY6j2LOx/wF3OT8nCkida4P5uEHKc2jeiIhM0JzqHrdR5ZPP9vdqqBTL6wx99CtBhiLSMzoQPM4paCrFEl//XmWFA/IJhHDnFpvvqEyXQIM5mbEMTJtQEPbSKXe6AMfh2lBbdT1VE0A+mo7fBXpP1BXGNJ+b+uu2Eyaa7boXLI+1VechCHLneZMCc/3NijFdELcPxN/+/74PHzEAACm+vfBFmckGjH3wcHdUBcPhuOmPj6o7DWo7YyElwpLud0fWfuuKE1MgzQ=
+ properties :
+  width : 320
+  height : 495
+  heightMin : 568
+ controls :
+  -
+    name : BTN_LED
+    identifier : 0x2f4d078f2699effc
+    internal_properties : CAAAAAgAAAA2ycHQfD+NzOoHMEdYcGFaiCKFmXoNM1OR5FLnAbx00CYMHxRDYWtGyWxa91f1z8i5uJf2edJ7TNlIgMVC5KH+pvelcW8FpTVtFQw8N5mYOviPFf75D3oTf4OJK8VH9Qj4dMoEC2BrDiotK78jUC9MDYGcT7Fe8nC22TBeNcu2RZaRNJa1TY+ewvPvAkfx0k6Ov8TFDFcw1Qek4Nvq3yA4hkglPpMVS6SSuH9VX3wLIFgf2jaMP/jjrOjFY8T/b5BVeAeQFGGmQbgdHqC61vJus7rT0hLp+5lxij+XhHx6Qv26CZmdbQUlv8bQqZ9qkoA58nMTUHSgO/HuC4AJbBkuiAdSE0jtJV1ab/tuJUTuNkB26xbrh95yMedFWAUS2LVl2CCLai16gUVTc5sTEoZZbo/MwpdDuTRQq0gQsQvYXID7EPCKE6TJWLq7TuxqWVYzWbw7Rbm8YVC24IwFKf5wsg83yEHcpswccKm9ivXUXbsjAoVwYZx6WtERhSNTOTy548Txc63BetVowDS987gI49aQg60Xd+zG+EbQbvjBtTd9+acxs9FUaYYlh1gQVNmpV7nfoJo2KoapL+YbjIrSI7V3nZOx7OqOHenJ66JD0I8nXn2AU9Kk0mHv2lyIjfZ9ZGY+hBuuA3tnqzhKB0LsIyiiTKXHQKSsupDBdMwVxJdZzA1G4OGqVKB08ID8SUfy5qOaZXLlbLf7Kz2EMLtemPxzN2fz+q4dSjsN52/lTGhte6XNRxmHtlQVBXkEV23rRW/GbZeNLiHLu6HVMWK7i6o8uLt+CACbR0Mzx5m3x9uWvgD8LstHJPYMZOZY/WpbZXt4gGy5M+MJkhY8qg04LfFIthXzUy841ixr/lCgooXPYceJRPNi/6FixzPFnSyenTIKjeFio+xU
+    properties :
+     x : 12
+     y : 227
+     width : 135
+     height : 52
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         
+         // Variable locale
+         nCouleur est un entier
+         nDurée est un entier
+         bClignoter est un booléen
+         
+         // On récupère la couleur désirée
+         nCouleur = COMBO_Couleur..ValeurMémorisée
+         
+         // On récupère la durée d'allumage désirée
+         nDurée = SAI_DuréeLED
+         
+         // Est ce qu'on veut que la LED clignote
+         bClignoter = INT_Clignotante
+         
+         //On allume la LED
+         LEDAllume(nCouleur,nDurée,bClignoter)
+         
+         // Information
+         ToastAffiche(<§$0000§>,toastLong)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : COMBO_Couleur
+    identifier : 0x2f4d078f269df069
+    internal_properties : CAAAAAgAAABuV4EWse3wApAK9OZRik3xBlVJVMnAILffXKy+crsnkXUG/TeZvKmFyv/YOcop0rwiK/5MRG4AzgeiZHbXMCOOpUvCrnTCoPqgYxkyUfvT2aaOh3eb7JjiQU5C+3Y9Pluyz0YcXrkLj7IRJxNIURJvJamf5dpL2z4Zh6LJty/+bDv8a9kc4PihIP69629qKbVt/Hmn0mPt8QPeKYtNXkek5ptsPw3F6ilRn2fLjCJ8QdEQLHuITKVscw303WRPjzsAOfVQjg13HLj9iED8chhZEzLhPy9XqZc4zI784Hhyj5CEtvsuMyOrtt111OmpQtSONm5S6CKGCUUKWVECsf8HMmgeTmBWcEB5X9hdoUP6ZKczOx0/WPH0Q/9m86ZEeiEu83+9NgEt00Bse/iODORGPMY6FIQyeDqS9qmuhUAA+g8jXGS7MG6Ot1CSrl9A6VoeRokOCPWFj7C3TqQO2aElTS1CcXUhldFLO/6XtIB9iiIdbfu2GSORx5ETmg7+gE6YDME718WkCh6laSTJ3Telf7kfh71soTrcLT29tmeX9vzxzVsAzfWsrdyd0COE8Wzr+YmEZPKEoGP+mpdFyeVL5bjt2qFl89lYFqAdzSQyWRNJnA77XBpasXf52EY7LkXkiZxwnUyZXI6gE8C8yng2+MSLpSLYJchd8dwILvuBq1Porbip2wPGKWGNi//9xNHSZBaOwqdn0VJz1sWqkNZyeJSdzbUyEk9t65E/H2bgQDclON3am9fTN0ffO463UIkZG+XoGBng26Spgmrc/9+MO2zq4YF/9KSEhiZRHGPbxDaKc3wo3goIZ9WhHnh+HFxT852JksYSnYH8VpdWvCeW23bLElwrN4gKQ3BVx0wNz31sVdIhP+DoupaZIvyqoRcYhHHrLSeyHh0psJn2NmSEXjiRT8EO9fWrfD69PpHnXvEjV5aPp454qYrlMbWLh19zeUTqYvZSGSOes7qAnuyUGLjQPmrdLo0H0hq0MjrNpq1gpWB2r3SSMf9dERmgvCAfTslSLqVLy5tqDCTcXC+UUwazXoHV2Lh0Wl1AOBDu9Qqo1FaveYPozQEKm4iCilBZ9qM73GOZeXedIg4hcAiYWau8N94dmQ1YYQ0N0b83vcXVZm0FY36MiCD3uddV6jlGwfNKsAhrys6c3WQhuzzhKmSiV7eSA4jNRSs53zbSRYwS0G73CCi3+GGDTs6s9qUg1p/DkMHE5qh8QJkzB0q8dNHvU2cNeuBChQIenHo/APMxo4ARO0UZ8Gh3y64LvfTjJstuCOTTo9ahoUZ8vhYKKVNQURDzMPo7Ova8QyUaKq1vNMwYI5iHWXB3lO3byzSU8KqntjKGa8BKEUVt4zREcsh4/39W4eNU938yHIh81FKmJzzkm00bfiLdNCF3AMTqatZuBIFYavjpfAWdN0BZRMaVzdIcsNGECsAz3R5/AFcN+D9C8g9eudPV1TfQmeb6WakgfnH3YtvcamVssRYPqBXQRkcRNf+7jsgCndydV/2nJO87+EReFUcA9Y5DrJ9yhLqevwqm48ehL9GACAjUV6+PmJDrDq3iKRJhbp0UZDPVCd1lLvLjQBtvwGLsg+rfFPljYXGcAug9fgixrta437T5SNkUHNrvhl1scGNCX/hb/C6ZBs9UJZOq69YgCR+uEDGKXksHuP1DMUXc/DV4BFSJEB2e407Sq1msVNvSVIQWoYrV7cBGQvb7WWV3taj63wGMaykDmFNAtJkQfoATDrpOL8/jjwEQN98=
+    properties :
+     x : 11
+     y : 14
+     width : 294
+     height : 74
+    dropdown :
+     internal_properties : CAAAAAgAAABwKZR4hbvKd9VgnViIp4fpYD76GfjX/olOPv7AD2L0NDtU24HazNRkAHcK8wQysGQOQR8m0xMWAvSwz9AQPHaioLgP9ym435iTw6Yh5wCdhtWVzfqtvWDYsFaNXI4XQLMPebKzPc7yyvp/suBaaIB7G4V/Xn/8xqzAbU5NKZlNOtErXfcsFVCTqtSexwl646h0FEUqpsO0vMoUuosmxIorG+gA5EL6MS2MHeaq7uUFmN5DuAVe4bHXw78Z1luKPRJcCvS10WyLcAVkUtU4MxqQFYulDfeeGgAqY8v/AhV+B5VLX7ghrQFJWrIeYKMcPIdJc7LoAZ1cx2cLU7xd1BkprCxVDbZHyBYp843q95smhnc8DHIPk2YH/Y0UmagW4VLG9q2GwdzYDdr7q1j05t/fM2TzG9jEfciiNHGIXcA8pbNxgvYj567loiINYudm3D/XXGQ/eO/N7K8Dgtx7862VSvq0gN2QHSHgHoqePtCtbHLnss+xFFJVIjxoiq1ad/x1KVhs6eHcmJorzx4ssTcn8+jIq5BpF+vOjgEsJWt021vmXmSxdRGTzpMRcgdHaesjQxJO9SkuVyJZTbw0Ab5yWQGeafpw7ejSI1JJ1P20IID5rbPUvcLqvKHxVAKIST5RM/8fAjohopZVUbuJfYc=
+     type : 7
+    type : 14
+    code_elements :
+     type_code : 23
+     p_codes :
+      -
+        code : |1-
+         
+         ListeAjoute(COMBO_Couleur,<§$0001§> + gLien(RougeClair))
+         ListeAjoute(COMBO_Couleur,<§$0002§> + glien(VertClair))
+         ListeAjoute(COMBO_Couleur,<§$0003§> + glien(BleuClair))
+         ListeAjoute(COMBO_Couleur,<§$0004§> + glien(CyanClair))
+         ListeAjoute(COMBO_Couleur,<§$0005§> + glien(MagentaClair))
+        type : 14
+      -
+        type : 35
+        enabled : false
+      -
+        type : 17
+        enabled : false
+  -
+    name : SAI_DuréeLED
+    identifier : 0x2f4d078f269ff0d7
+    internal_properties : CAAAAAgAAAC9esyTbtUozxHYYHcWEd94YuSKfOFIQa9ztepBh6nQ6u5+vBqFOHK68dj8J4jS5YW+qyuEwouepasjJgaMvDxrwDl4TBgH0pdhVuvpsferpEy0yJZrwGSKfTCx5+qYJbP7R/cPJoWCrSdkEMH+r4AzvTSPpWaCIOTYo1wMzVjTKA+ULqtdYB4TG6HZ7fYhLjClT8X+ccauwt/dnM+bjTE+JbJPribbhXio4h6u6oVb4KyqH/+6CD75STlQlkAm3t4tms5f6ohRFsOVO/tCdH/knGreor+zmhKwdwKrCbSsmfqJ2HxWg7sQs5LqFhyv4XL6JN5gjHLaeTR+UxPsu+J/2mogzfcQvARoOkIJUxXwpQj2sE+yGiulgEsFCmHJ8ASWPKKwyGx2U/L6bRf/L2H4xfp2m0s8lBXAnHQ3jN0eQe6FVX5XlQUECxVqaZiwam51sqDmxW3XNWJ+6rn6JAxCxRpgDNMypI/6fY4C5+B9gk+l2g8aBY2ff5mPPV4IX80q1L6jnj/Rp705n0pqiNuavbXcDCimWhrwIKTCjirUFU9I3usjZoPImTdeSdTKrfrnazeR8O87WGCLSIYH9MsdD967tuYvdQ/D6rM0/uHHB75tCaNUybdRM4DR57fUaG6SmNuninWAbaHueGhsxg7i/NwlVXd6XP0rGhxdI+AsYvFIZLqIGUn6hvDIcimRLNM3SBHkw4gHbgK9pC28/LDQ0N1Taz87PepPZs3w83BI3OAPs3KwguEQrglmmK1W7/fYZ7klgKzBwvNQvcmMmWxd2xNVVqZpj+Zi658p0fhJZClXvaLkx7NlshYjcZ3By5lLYq4oeyXcTh+zonLPni6sFghEMhupFoGb/ardkk7c2Wf0x3sULncA/YCySpNypUeuc1EkmLqxjlwzvK2aGawwR2zHEdkozT9TRO2+19RiV6UwRfoBsX6pj0nqWin4MawzP3sWHUcgKhdolwHhSdr9+h60ySFZhL5V/6UVftKwAjW9QIPMKFWHJTgS6Srt3ZUO+VqXdc+KNuq5oKi8oxXG4d2wcqhiUoFMT6De166J8C89X6suznUX+KnWjFP3zb2eDkHkN53q1NpsaVcE5/So4aivC4qtMGaIZMbHTA+A6Bs2gZlLfwLkU4zNPRLEWSOZWHBKmPsw8QeDlyFFL9qpIxYETS9eGS9H5JFJ5LDBwFSHL18qqP2uRUqHqQcPRVmDrlLn6jxuRCm9goyrB1FYsu/gAeXppjtunvVHGfmQB1dM7TazGXvuu9iBVuTaCt2cd5AAX65HlErJAw1KfQ==
+    properties :
+     x : 11
+     y : 96
+     width : 294
+     height : 71
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : INT_Clignotante
+    identifier : 0x2f4d078f26a2f154
+    internal_properties : CAAAAAgAAAB6elS1ko67bJGyqfRZJIOCwl2JX1A1BIzUOfdVzOiasBXj+85WaGKom0VhA6MTfO+A8BNcjZ/yspm0Z8Oyk+uH1/lKhNxnIixu2fShAV+F+ChaljJuZyxRfcMvXkcBOlxZcvxcMGSobrYQfaJ5hOlRJHl+WYR3b5rtTBKgTHqUGez1uEg6J2cKH1Hj0qBK2a1Q5VEBtdu8KrjpP/Y5OvDVe+GKtFBY0vGrK1c7LgGZV2ploV0Wr32z6qixIfYNK/joCryKL4U4EP/29+PdOgsC5v/bOOpXYA1bDF9I6r/eCnyRhvCt82RTa+bmA3yLmj3LdABi4hmUB/tfATM0ccUylb97sd+M1Laki+F4pihWcg1cPABLB/Ph4PpzlaKRNaZBJf0mJZ3oAMsczFlHwCsICDJPpdhmyE0t3RrfjwSmff/MxotLS6Cr0L1ZJfbiBXUrdR0/bsZSwtn3Ai1PYfhPv5bmQsDDGL2wlI0HIheaF1y/QJ04IdPNLwk0/oUG9w1maFxZ66YAifJcl6zKVPADAyUECjy37zg7H891ALWa7xW3EI8qsVM/p/+Bu3axLqNNkW08KXSxxuFQ1EzKb29jOlAbI50r5veUcGdjXhn4HKVtJw93nOCjmNr9Sbn4pMHddh1nVzKUEkGZgcXMVUKsvT0YlheidmlQYup3+wYPB0RW8wXs9uIhd4YN9rkqhAWlQEMwisoDQP4LJXh//MCGPMe4Pjeqw1wD2mh+7jJ2NGOWFo7hBn4tcySs7GItMSlI39/c8c8kv9u9bTsZpJr/jIY6vBVsqMEMzAQi25VLIFGvbA9nBlItm6IvfRysBevvv3NYZHUPWVBn7yOaQNahUGRXgHSEwImvgHP702aTdjDwmQdGlGq/JceOS0pmgrVvCSn/Lb2MVkjeNeA1d6CFRB7KyHUJzNozOdqzJQjhA8h9IKCzKEe66jybLVk=
+    properties :
+     x : 3
+     y : 175
+     width : 198
+     height : 44
+    options :
+     -
+       internal_properties : CAAAAAgAAAAlDFiG32i9Enj0O8S8LFZNP9bjQ1Ptz3PU3vhCgvmcii9asode5Fzxl6ZAj9JL8ZF6pOrsqHwtm4suAZTFmoHahl8Eqn4rNcv+mmSZSE35PBUtDMTlGotnancgz89GFddUj3UL1SGyuMu3BcHtYMvlVWLuyYQYKrbfHBxPlvE=
+    type : 5
+    controls : []
+    code_elements :
+     type_code : 5
+     p_codes : []
+  -
+    name : BTN_LEDEteind
+    identifier : 0x2f4d078f26a5f1b1
+    internal_properties : CAAAAAgAAADczrdC6uJyg5vf3/tJjTZLFjOOfMrK62CBTHbE1Ay47sqbbklwNEDsO+s8UP1PocoJr7wWJHwFQ+MZjQ3KIPjxxsNqoUnP3LPnYK610ObsS36oo5D8rlWe/UCngo+i46BNfPcgTC2sTNJnRVZX9/Wq3piLvKFdr1QjUI2u1e7jAWCdd8FXnaIdln7L/qyZMzxhQ/aPyAif5yT9NnA3wWBqB5ioU52gRMPTNzSAdNBA/BimYr02g6RLJMqORQQxNIEgh0g7nRvk0CFRCBQn7W0iUf2vmvnByEd8fzDSzH925wduN4WZAu37hSRXVWUBrGUOG+3wTqSZW/T5x4izCmiXQ5YIlg8hCMPglLT7y6g+ct2umrYda1pgPohAng456DmYBWdeueX+mjfwUl9owTmP7p/INgiV1Fo/YauPIMWc3CZ1BzIHLWB4cM4Y1mBzRfqfCBH2A+FW7ldvQox3Umc2iUeqFMvhAOn/H3XP7g69S/7plUkIdkD5Tz6LmQ/sVoh0o2PDef4HDd5vNpg1+C2SZCwRO4/0KzGtL3IaRkmW347jVuEZHN9v/kdzi0q53XW0D6TtNl+SNylSf3zlj3l+nAs466HUKE9JvGMZOcVWxtIbvVXqpELz33BJbu6XjJDGqNMIlo58VMI27dD8GLN6lsLxNvF0HB+xkVQflicQhISlbeOwBesztzlOIJB5qi9tuN7gxVulV05fM9TuE6ErdeeUJ22W7zGV1wciOMhCaoH4ZiWl5JUeZu9no7lFHp5UbcnXdax2zg3HrB8PSIVlqusKEQwhweRJBB6zpdjWV1jLblxIzij55PAj5xvMQdsBnMfGe7DMcUUzlG7kbzdROYlfHIvkqpn1LVgpVV3W6/IlFFH789c6TzvcaLO2/+Hh8p7UEMGI4PhvW6PH
+    properties :
+     x : 170
+     y : 227
+     width : 135
+     height : 52
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         
+         // On étend la LED
+         LEDEteint()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : LIB_Libellé1
+    identifier : 0x2f4d078f26a7f21f
+    internal_properties : CAAAAAgAAABPPEJFJbws3zdFRfW8HpcX9srwTf5fcaGvG1CiFK6oFGI+6JOny4pY3QABTVuhaeWSg5m14tLID3aW53w2vmAiU6sweD0EbHaofJIKxh6ywXp3IhM/ie4HTCuFRQl05RzMt1jjA+k39rmF3RmIrSa/BO/JGgDYPaTfx/l2DY/EiOVOuHMH2gB3I2nZ8pWkuuxD1ThWV1i2zemg2t4MddwW7xCFX5C2yqLSn2Xc/k1QcNOTn2Alui6/7lF/mnQG5mpD2H7Zf9E71n9Fj1nyyT1U57Nk5NZUgajwsqQasK3FavXcxlj45i0mhAKo/nVHhvYloob4O9dx4MXgY2uYSQK6cFx+k5BGiIir7L5NicYs1J0zeas+zeoekFUVm/Bl2UamZs6cI+ikoJbRR+dXLCdRkEtN2RgwcKFg0ctdbcBqTObR6UutjM06joFRC+prmhOMQnwcfNIHJtoyUEik86i7
+    properties :
+     x : 2
+     y : 379
+     width : 316
+     height : 21
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : IMG_Image2
+    identifier : 0x2f4d079026a9f27d
+    internal_properties : CAAAAAgAAABrYraMGW0fT08jDgPLYSAUZ37JmyVViPZcTF4WP1NiCzJECuSKtjUGnkQn11N14MqH1P8opfOG2veQISog0kR1yCPEK7NKG5JHeVEMR62HbV0Hg80/cerCgKXMT320fZb88Sb4Mq8n3jK9CqWXhz7Lp6rtoPo0qacfPPYJM/lDbKVcn+kSO8KJIsDjnC2ZcT27pR2dfKqjq7rEsKx0+pJDQFNJTRp5GRSoA9v807po6q/neA1CmlA51ogNsDwB21gQfI2OxdCYHIeLUS6Th1BCUaGRHd1YMMmiNQPydddLD9Yocng78n6FAvekoi1i7qarU3m40iaV9sayzND5MDX5awH8Q65NTylR4BwcCsVvs8o8tAVQfXHxFyIKj8H5vQkCrP8KM3ZkTDaI2dUCFrMXUNpjQOPnH6RILRjGsAIX6S9HD07lKRc+/FdtWrXXnIWhYlIGGMHmghqbrJlS/MJXuapqVG4tRJwdugkM1/8TcgAfzWAJfcT74hWBW8/F3xM5ONIcDqWatUJwSec901R5TxgtvS5QCDewK5CVKC2OW20u5NJxzBuT3SWZCoowCd6Tg+PlcKTKZf5AZTKu/zJZRiE4sqGxFBZRm9bU6sVeW46X0Z1wusHPZzxOhgPhbpUGoNpWF78aBwQPt6CYBE0pOekQBZ5jRegg0IuXBqnsmLKbeY/qQxN6ocKbi8tDN4yxoQP3l3+gF0Gx821OdiKtCoto3GZI1UoJo1reQWS30RcpgfUncrGF8gmgafLamG6Z9FsUgv4jv8VrcMUEQX/MdBSEAvcXXx08CiFiP4pwGBdY94xSlW3JSrgU1SC8tZVNrvOUGmlEAwf2vpe9TWTn
+    properties :
+     x : 110
+     y : 287
+     width : 96
+     height : 96
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+ actionbar :
+  name : ACTB_ActionBar
+  identifier : 0x2f4d0775266c8ccd
+  internal_properties : CAAAAAgAAADfEpgTRFg1wO4EHELjhlwic92V93QAsal/ApiYYvkokY+Tr533378E5BDtz1ml3njcdZS+7h1zHRDpkunQKXVolvwly3FGEaTT/righZoWFI5SoXgBtRm/wjzZhqinLzfddNtmdPNQ7u+Lga6BQj0aZZdKt7/Xsf6+IxnwkKb17zPV5igtvmN2NGMg8IT1uoXjN6N8LmXYt1KBVAOZVDuz5jP8+bSzhD7spRomjdMb3qjOid+tcuF52bTU3eq1SSrYwBXKWEj2FUhSRlK74OQGiIye8mVBMy/RLxi1aF8=
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      type : 229
+      enabled : false
+    -
+      type : 239
+      enabled : false
+    -
+      type : 240
+      enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x29f8144500a4e5ba
+  internal_properties : CAAAAAgAAAByVTsSr3/syDi1St8xf8fgHxdhV816G1q5zyODGkOm1npuSkYo5g/jXWoWFFK2H3oUBZtHLsT5rfRCnVFNNS0taWG501M84VhyiY2gqfWqbb5TaLNBc7/5X5PbRqVlZ5a3p7SznWjoHPbzt8FGrVw2pkxQ2AMTSCoEquPAoSRRZmCgf0llwPSIdkz+fkQsa3yCb/aARC1IuAmTNbEAkdknQHeBdhsRIWlMefD05RVbqvlMGzysSB4KUPZWTHHaQPB4ObHU/5KQ/VjN8jyQaoRgKuGxrJ5V23KTuMr/Zw==
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAABKff4sxysR+9kg8GIJ708iDvb5GJxqytSUKL54fomJ9xlu42EWUFv/+en+BSQDmdB2krqVslwL/1eyQDVw8sffQk7lF3aDfZNzV/+zROsnKAy1jaSejRR5UgML
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      PROCEDURE MaFenêtre()
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1+
+      
+      // On détecte le changement de secousse
+      CapteurDétecteDébutSecousses("DétectionDébutSecousses",cptSensibilitéElevée)
+      CapteurDétecteFinSecousses("DétectionFinSecousses",cptSensibilitéElevée)
+     type : 11
+   -
+     code : |1+
+      
+      
+      
+      // On arrête la détection
+      CapteurDétecteDébutSecousses("")
+      CapteurDétecteFinSecousses("")
+     type : 12
+  procedures :
+   -
+     name : DétectionDébutSecousses
+     procedure_id : 2255467617009012754
+     type_code : 14
+     code : |1-
+      // Résumé : Appelé lorsqu'une secousse est détectée. On fait vibrer le téléphone
+      // Syntaxe :
+      //DétectionDébutSecousses ()
+      PROCEDURE DétectionDébutSecousses()
+      
+      // On déclenche un vibration de 60 secondes
+      VibrationDéclenche(60000)
+     type : 458752
+   -
+     name : DétectionFinSecousses
+     procedure_id : 2255467617009078884
+     type_code : 14
+     code : |1-
+      // Résumé : Appelé lorsqu'une fin de secousse est détectée. On arrête de faire vibrer le téléphone
+      // Syntaxe :
+      //DétectionFinSecousses (<nDurée> est entier)
+      //
+      //
+      PROCEDURE DétectionFinSecousses(nDurée est un entier)
+      
+      // On arrête la vibration
+      VibrationArrête()
+      
+      ToastAffiche(<§$0006§> + PartieEntière(nDurée/1000) + <§$0007§>)
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAAB6ragasMBWLfpsSyU19J6lAvYEqFWd1xYOjmHr1XHVZOVmechqLo1vKvfoAJhHeXL59P8BudVQfrBZ/U9vpjDz5RFibMKKm/84EA==
+  original_name : _11
+resources :
+ string_res :
+  identifier : 0x1f4d076b021d63aa
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+  strings :
+   -
+     text :
+      fr-FR : "Sur certains téléphones, il est nécessaire de mettre l'écran en veille afin que la LED s'allume."
+     index : 0
+   -
+     text :
+      fr-FR : Rouge
+     index : 1
+   -
+     text :
+      fr-FR : Vert
+     index : 2
+   -
+     text :
+      fr-FR : Bleu
+     index : 3
+   -
+     text :
+      fr-FR : Cyan
+     index : 4
+   -
+     text :
+      fr-FR : Rose
+     index : 5
+   -
+     text :
+      fr-FR : "Fin de la secousse de "
+     index : 6
+   -
+     text :
+      fr-FR : " secondes."
+     index : 7
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

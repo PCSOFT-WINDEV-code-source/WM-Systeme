@@ -1,0 +1,119 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_INTERNET
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_INTERNET
+ identifier : 0x2f4d08652fd334f6
+ internal_properties : CAAAAAgAAAA5dhO5uZbOKo7+FuqVpaFlOceOcRmjkPseiOs28FSfj2nP4gffnlGGOonb94NjJiwtfoI+rytJFzjcbzAFUL5N4GGZJFADLTCqrWbsvhXR7qsZIfez1Lejyzs7KhYeC0G7NmFSF6igpS2U6hdmg2v99kzT2p5SaldjKNEyvYVahtnleT/FoZADqleeLmW80ORo4unwRlwMaiWry3r6KN/ZdLZXs8nOI8bp85ynlHyEuzZzXlSA39uwjtt8EVolsveR8Kw8jAaZWGpjj6AgAFJW9lWpYQTAa+bqx5JL+3Gpt0yN6z2SYAGzbft3cB+tkIyHlKg4RC+lebGJyLOkicPeDx68bJdaUnJms+LZDF5gVnpCjc/gn9paM0Q5wJoyC9xFsBRvL+/dREJNr9RHAqhwhFnx2r6mtAfLpGoVnPUGEIKdRJCXQ5VC4+Vc5Wdd8mmOl9JaXXKdlMSERKxzVP/Olxt/aNsCZDvyr4VYgdUlKqvaYL1j16Krf4ybuQdFF1TT6l5yv7kciR8fixH67nVMqszoyJUlaOCyF6lkuyMgE7x8MoSrP4JJDZYjzoBIcO+QAOyRlFF6FUP2DSv8UluqhUhlmJ9n/Jsc3cMM8gTdIlmcHwFG2qE1qSb43BSkn1RCQkkcd4cDLAoFi71LR5lzBtBC01K6NOW6yhOM2aiupRkOFNVgL2umeIHuaYaA0MXfCiwwDgOQ/X7QmmfrHxBa0iLsTbzvpphNZ6jgSwEIdxXg/hLYBvco03jC3TdWVSZiJlJSeNGszUE3PqFa+c/OioCAEc4pVp/eRXq9OAbTv1vSmAZFXo0UYtUqWMh+p6lUN/Z1iG0r8v7HLBbcl4zEuM1T4d67Mj80PfexDBm0CWngaE5WLa3tRPI2k9iFHi0=
+ properties :
+  width : 320
+  height : 504
+  heightMin : 577
+ controls :
+  -
+    name : HTM_WEB
+    identifier : 0x2f4d0d1030476f09
+    internal_properties : CAAAAAgAAAA+89lRfWWEF6vjHfnCZfXZx5wZJ0x8uvuoRCwNZyTUSKya5qBwMCrWkfVZrs60jj/wgNkx2fpJA+tchovdzkyHCPBluUB9pni5We/OdHe3rMkJE82lRY4wzrguCBDLT1AcRFqYEPIaGMBmCmZ+AVwoZL9JjnTHk5BUeNbSIGNRMKCiTlHxjzTN9re+T3aaLiTblaybe7lbF6l9rupovzrtbpxUs4QvauwOZmjKIcpMHSIF8uazcs8JhJUqjjXcTLS58rPFocyLGl+uX95zDBjRm0gqYfT47TABsaGSWI3UFS5NehfM8Qb6eGvZX2Xtu8tOdodEAuBzhJ5DuUThLfoaqqN75XqWOu9tzyfVFxvMmyKjq/O6SAY7+SA2DcPOdTWzqlNDSSW9Hbx91zoPkyk=
+    properties :
+     width : 319
+     height : 496
+    type : 23
+    code_elements :
+     type_code : 36
+     p_codes :
+      -
+        code : |1+
+         PROCÉDURE ClicLien(sLien)
+        type : 266
+ actionbar :
+  name : ACTB_ActionBar
+  identifier : 0x2f4d08652fd434f6
+  internal_properties : CAAAAAgAAADZTGLFChrzAqjG1ohV0A58PR9XuTryr7tp1HJmvDPSU7FV6Y/lwa0WhjrfPSsfQPpe9x44ZIeJFxrrlOfaK3fSeDYxp+3WNfCDzjhEMaoevM5CHQyd5a0rarzx6oQPn8etVK96SHscIm8TCeJNqp3Ih6nEobnJq/DwNSPGYsj37Q0vSFpnUB24ljX6Lu4HlPN9SU02CE/KoawrdtGvzkG16D32/7K9isRmL5SsC1WZWCJAe+2TVM9ny6bGIzB/B2SSel9wpjrkA3oEiBB5Iho4Wt5ouKMD8W0T4Up7NmE=
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      type : 229
+      enabled : false
+    -
+      type : 239
+      enabled : false
+    -
+      type : 240
+      enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x29f8144500a4e5ba
+  internal_properties : CAAAAAgAAAByVTsSr3/syDi1St8xf8fgHxdhV816G1q5zyODGkOm1npuSkYo5g/jXWoWFFK2H3oUBZtHLsT5rfRCnVFNNS0taWG501M84VhyiY2gqfWqbb5TaLNBc7/5X5PbRqVlZ5a3p7SznWjoHPbzt8FGrVw2pkxQ2AMTSCoEquPAoSRRZmCgf0llwPSIdkz+fkQsa3yCb/aARC1IuAmTNbEAkdknQHeBdhsRIWlMefD05RVbqvlMGzysSB4KUPZWTHHaQPB4ObHU/5KQ/VjN8jyQaoRgKuGxrJ5V23KTuMr/Zw==
+  options :
+   -
+     name : OPT_Option
+     identifier : 0x2f4d0dc1305c255f
+     internal_properties : CAAAAAgAAACf3gpGzifCQbwdnkAxlLbyqK6m3kF00MT2tsECOdo/vR+neMDKrSIeXSzpCVujG7D93sCpJ0WKBC4ZEjB4QeyI8oWIYxPllMqbf0UGoAcVb0hsi6IK4YcOx54HHZ1cODu8dVQ1KP0HbPGAAqdnxMDkYkjD4Bm4t5xlgAF9f38FSeOuWqW8u0ToY5L06KOwv7NHz7Tn4myaoAahz2ozbJp3pinaQvYMO71pbx68TnqbN6VNDcO9E5k5EUcLSKu4drEtWqILS8mAM8PhgR1r+VoScbXyYUzCXjftOgEAYroxwEUlWME1B1X+musqzBHhmUNQ9stOXHKqy+qveb2mb4uYAPdtESC7
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1+
+          
+          
+          // On lance la navigation
+          NavigateurLanceAppli( "https://www.pcsoft.fr" )
+          
+          
+         type : 32
+   -
+     name : OPT_Option2
+     identifier : 0x2f4d0dc2305e26f5
+     internal_properties : CAAAAAgAAAClGZ5va8D5+Y0PDIOti2ZM+eqwc3f9Y3PMq16ftnJu9IT/Xl4QWHO063emy2mo15qchI1UB/H9F27HBdUcelDZSny82sz4af6OcKOH4OvxaJMNjFu0IeFq5b+JAUTAwgybGEv+uT7AQUtXhly7K/lLjFmdZnpCEW+8gN7+bRUhHT+ce2Mq3EFDfMNDl0O0a3FuyCv1ov1r58Qe8e6KoYlEIkQHnUT/AkarccHTdLWBiB5wXL71s+x2wzKKoXOBFaTnyYZhlVy1/I3whSQR7zSnQ2f5zoAXP8AKj1vOuRDHHBrMYQDSqvoeiqVV/mOXysn4waZEdp4MKSAzMoQofYTGegZpUgV5vg==
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1-
+          
+          HTMLNavigue( HTM_WEB, htmlActualise )
+         type : 32
+  code_elements :
+   type_code : 26
+   p_codes : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAABKff4sxysR+9kg8GIJ708iDvb5GJxqytSUKL54fomJ9xlu42EWUFv/+en+BSQDmdB2krqVslwL/1eyQDVw8sffQk7lF3aDfZNzV/+zROsnKAy1jaSejRR5UgML
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      PROCEDURE MaFenêtre()
+   -
+     code : |1-
+      
+      HTM_WEB = "https://www.pcsoft.fr"
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+ code_parameters :
+  internal_properties : CAAAAAgAAAB6ragasMBWLfpsSyU19J6lAvYEqFWd1xYOjmHr1XHVZOVmechqLo1vKvfoAJhHeXL59P8BudVQfrBZ/U9vpjDz5RFibMKKm/84EA==
+  original_name : _11
+resources :
+ string_res :
+  identifier : 0x1fbd44f600b08bcd
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

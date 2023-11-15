@@ -1,0 +1,525 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_ACCUEIL
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_ACCUEIL
+ identifier : 0x2f4cc2251991cb15
+ internal_properties : CAAAAAgAAAD5utYrgcaMN/VVXThQrC36lJ1KW638Te/0K1vmoLn74+g2b5g6rsAfI/uc6BZSE0SAUW1v20++JdH3DtXnPpN7avGZa/WkLduChB3Fq/3xtZELTnLLNY0pNB5vFKgupu+5E18/KtsSY0B3PWDhcKhmyEVu5N5oAwCJhjcW1+ECzlCBhCe/wFsv9bccB5IWwoGofHMEXiYAniuPMXkHPzGmeyagBM1uf3OaUM2cxmGBLofFdn7RlNlMj0wmV9Ffuz7+IdnNwgbXThksoPB+TQKu3yQqAXzfZMP8jZjYate5yT6Tqe3xhevEvHPJKnYh3h7IEFHEVRzs6JQwW/auuVoe4ehDNpZrcAG3wUukp0mYGhYFbNFQ5QcU4JqH0kXYU68Ek0xRZ4LsRFKLTYShWAudxUuSWrO2MXbLY2yFFBaENzoVH8Hcs5KHDc4SHcjSYE31nwRizXBNdAEYP4a3O0zRGUIlCyvmQya1b2QUBYhkBB60u36vB859dcvmjVT9Hjm3kf2Q2O92uWDMLoybmUJR1kgkQ4p+Zea3IY0l2Z9crDUzUpnQMdU+E6U87zo0+md8R38Ltzq0DQfx/GdG0NGZfq+cdrAu2cAb9YQo+yV9lciYzNfdfCqS88X8I+GeAgVbZ7XqxinxMlmpZ5tHoVFZCYYuY+09Y2XkYtwknFgA+dTC2SGPS//y6L2iba7EbFC27qXdIhgnDC+IIK/Wm94bGxEgYIW170JuEOpi9C8qY/uq01Oe0Dqm7tqpOUaaejveAfQ3+/u6kDhZMGMCjmblkRfYRfVVdb8kv1u+bOwG
+ properties :
+  width : 320
+  height : 568
+ controls :
+  -
+    name : ZM_ACTION1
+    identifier : 0x2f4cc2251992cb15
+    internal_properties : CAAAAAgAAAD35qofq9RjRZmc5CCDzamXeTsSx7ZLKNdIlDD0wnAunXGlDcCXQf0Zv/oc3fsZ1kIBYTaw74ygnWwnZwn8OGDcINP+iobsI0vrobu4oP2G/tKVG4odhAt0mM/fWyhKmacZu59fmekKH4FQnJL7sVkgLtQxFzeDUuoIz0/zvaRU6gS5R9Iq0jFk2dPKuiD9LujvQvQ9sFVS+NGuKrA28kLCZS2E/Y/ONos5pctT5QB+00c9qmrpKFSPWl9sv6iQrHP44iCorjgwVBd86XU4LiREqodauFxDJjLpYY7xzPFsTZlVP37RYDPA6edNkvS3irkbAk3SfIsi8yS+Wf3hAFg4tl/VCLfCH+3qNGzAtZkcoqouB4+kmm68nh2zTxiVSZ2JDeNtMgp4wShPZmRlwwmWRv+AFxyvoth1XwXnF0YJtiQaEaSTwKKIt8rPW1VbFn2gUaDsfqszEekM6ZYRJH412IknJfNNipyZZdUdSyzVe8fj37lnMoqEgJX28QV2ecxlfPSUW22885L/Mc0KUeDb2ItKzmjPHEqdKo3pytV3YQwNzmCDdiqy0ILRTNTlFewDaOy8RIQiMkzJCMPbRHVAp+5aWStYEn9JpFJFoZ+rIcc2xTSzQdro9tl5iWdTgbLN0Q7ESGCv5b7w5Q06WW8Txzc9YY0r/rqNnlq07r5V//EYOssz4hVekqwos4ZhJrhZW07DxBsp55BbCJ0L609/ydogEmkDq4u6KCMiSBxlvMkGOjWlfnAR5QU/Y485jNdMMtlOLx2Kt+O9fEJjFNatlD9pqxXF/iCENObsxjJqCLozF1dxrIomrYALu8ZWM9Ur2IaweuIrG+FeFLoiCD6GRGqlywaR
+    properties :
+     x : 37
+     y : 256
+     width : 115
+     height : 117
+    rows :
+     -
+       internal_properties : CAAAAAgAAADHh3Rw5NgehCAp4LFh1InMiom00ssqNelqtA7ZqpcpuJDmALuwFFN3299/UrpwUI/uAkxaD9I5pvUZG2ryHPk4P9CbLUnsEaUrZIN1b6WCb0oRh55vnzL1GPA+DnTnHty5MdqTJRTM9viM3B5DK5aqMbEJBVn4DMP/Kw==
+       controls :
+        -
+          name : BTN_ACTION1
+          identifier : 0x2f4cc2251994cb15
+          internal_properties : CAAAAAgAAAAPI6iQTNBQUVrbvq1cL/dzKiUXfwqI0EmnObPdWkpbjmqQfCx+k5ldr0HRHdr8OQ2lQs6M3iazWqujcjMdKWApEG6mY8zEpsF8nLHrcUKkpy186Nr63YK3YPYcNAR7plwckP8/AEctmX3FG/DQ1VEe+sIvkcOWVeHaTHxhsw8yOdJ1pQAWltxYYb4O0PBFNf0v2uPjPsr308IBuIdf5tUjI9axhODJ5VU2eG7epc4gwCqUboDQrl+85vhYGx4flZmFE4rFOpjFF2veJgKUfknUpKrtyoXmDxj04Lld4I1ZFvI31tw7x5d27B7AP1njEZQv2/AbEKBPg6cc5uEVcOsK8JqphdBAB3ZYgrQHLb7w3qRRf9Bu2HbLf46rXsYdFrcd3Fb3p2FOipzlqhE+1obJc45yoO5eAEg4oX+0MqzPir0f1bFThDqDeXlbMcmwg5Y9Hq+AxQky1Mdfhg3CKUxty6QwBOCUt2IIuGJ9cVR8Q2FXCEtgZwvSMPp7ygndn/t02JtoDcpeoWzCfISvU88Tj/a19YQjWkV1canpmwWILlTDOKGl7xUOn+0/DwtC4LJtvxtLikSBE+8bODLA/9raCl3EAQjlupt4tzP/No/WE7kpHH0GewbyAfNr7RxE723l5S7YiFBViTOBUx7DkyygFrqVbrXxflOzwREXxsMcYMGi1ZClxGqVueB+Mg+/ISR4hkFGptu3F0luzVxNtGabIx2bek9CG6NkPBMW8EucoHS799iXP/xxPKjBUpENnc/iyrCdmsBUuLl/T6tKlqdSVQCq4Xr9uj03nuFbJ7rR42gp0OE0BbJISe57bHU2u03D0oETlyZ+kdN6YvfRaxrwR8b+/dt8Kmaxj8YohaMuFeaXEO2WLVz0tm4YVcfNARFiYcIzqXsmrVJeKwD5LC6m4x48sYTgCq7FRJqwWnMkIY7s/P+RMcGKIlAXBtiilx1kaXUXAbQjtv0r7hs6n6sCAw==
+          properties :
+           x : 23
+           y : 8
+           width : 68
+           height : 54
+          type : 4
+          code_elements :
+           type_code : 4
+           p_codes :
+            -
+              code : |1-
+               SI FenEtat( FEN_TOASTS_NOTIFS ) = Inexistant ALORS
+               	FEN_TOASTS_NOTIFS.OuvreFenêtreMobile()
+               SINON
+               	FenEtat( FEN_TOASTS_NOTIFS, Actif )
+               FIN
+              type : 18
+            -
+              type : 161
+              enabled : false
+        -
+          name : LIB_TitreAction1
+          identifier : 0x2f4cc2251995cb15
+          internal_properties : CAAAAAgAAAC3WZSa+muDmUFZj2H+a1DuMrLG5Jnbzh5otl0/s3SKx06PLHMhXPZOQ6wyxjhmNv3+vZ6iL05VFWCVgCyOuyVw2dbhSsdSj5ZcDHxesvRnj+u3Hs3qULeocLpqFpFE5kCavrknUk8pFgk4RSNAo+WRMkFqf/fyj+evIoqJCxnRpFHOVdVWHWFroOUoEdYRvHerRRlNvEjm9YVP9IwKE033HqEaDR9GBfS8DdLF1xH6wTlosN63PeH2x0vS8P05Md6WM9sEMqIJwFnuQhZh6USDQZrf6T4DDlPtuOLQiHRSumaJ4p440IZ1o4ZgBrzXt1/5VW+DIDTvIm+pauLLmRGisWOKVpcg3Gv2b7aQ8DkGIx82iHEOeuXlJ9ipczOxpvXLibfyyB8JlkLGKsJH6LlHaXYseMoGduPd3c/M77DiXE5Ezn56bjULjtgKH2Hp7SsQD2VvZePLsPjNO7DNNbUDqtvLZR1OVgKDp1lpjR+oZrs4KfdMl7Hqrnq5SYulCDzRCzrzDGjkiWRLpQYdvkR+ip4=
+          properties :
+           x : 1
+           y : 70
+           width : 113
+           height : 41
+          type : 3
+          code_elements :
+           type_code : 2
+           p_codes : []
+    type : 97
+    controls : []
+    code_elements :
+     type_code : 126
+     p_codes :
+      -
+        code : |1+
+         // Le clic sur la ZML execute simplement le code du bouton associé
+         ExécuteTraitement(BTN_ACTION1, trtclic)
+        type : 33
+      -
+        type : 222
+        enabled : false
+      -
+        type : 223
+        enabled : false
+  -
+    name : ZM_ACTION2
+    identifier : 0x2f4cc2251997cb15
+    internal_properties : CAAAAAgAAACcgwHi5oEOsCY5cddkshobXwG5Gia5fZe6gJsvoEwi9jjDSVMwBmYSbH+PesLqpb0mTt2TiEFxRn0waqKTQw3tF1KP04ErfvImTZ+QEOk2kjbpY0rlCGfcfDP724huGVud1/cH+R2Gz40ciGqzDUGEYhBR5y83lurUy/MbZbsoDWjlt2qCVk2sNb9+UiABbrzjjvSlGCm+GDVyPrimPnp2wYEUnT96Cvt9Wb/LzWxeD0tharrRJFiHLuMwB1AMtHekTsig/pxsjLO4vQWA2txghmvSQMz/suIljZLxlEU8AeWxR64RDIcI9dMZapTrUu33bk1y9H8GU/gije2J7ECMgsvVQJ+2873GEAAg1aVUlr5yF5/0NsKMAuGHd3hxqWE9SQsViqYkEQwT+tQVR/niivOI9+yjTrAZI4FH92qZIugeadolKkyy6fzBTUc1KAsiM4pK2F0FYwNW86CzruCbmhtJc723/H67T78fdR4nCXk9Oe+JHDym+ld4q/9oy1rvho6ydaf2LfSR00ds27px+pVcXJrxXgxP3K+znM8J93aHuC4N2MzkArzrPsYvbwo9MqYSvmYszMZzcn2Fluf+GUikz+2iXFl71hSf8yktp0G4zyoF60RieBvbQzltq5ineyAy6pLxN9gCR4fco4EZUWnvF3fNeEQf4KweiBBHLRPKbLFFhJHKDB7qBbg7CNZjXchpPoW7iXK9uvct5QHlUxzqmKNt/d3MepWU+lZvArNYhHM3kOqbfyeBFfGhBk3wDrskDaGsSUNVZMLFqIDjrMfrcSudyGog0ALkxCpQcubXjfqLFBCrsZk+rEqvm0mmNlaoIU6ejBYDSU29bVOZeSfqdml2
+    properties :
+     x : 167
+     y : 256
+     width : 115
+     height : 118
+    rows :
+     -
+       internal_properties : CAAAAAgAAAAaGFQD03dndtzVG3luXKwSP/pPVoKr12mV0S1XGtNaGqAlkJ1eq3eHOcUjnagjItPUxe9YFTPmzQ3Ih+Qk+YjUORD2Kt5S1J3X0Iyt27aDlHWjn6KB4iLMZSAVCn8jti6TOGYANADh2ftTSUT1S2vudttoaZ0=
+       controls :
+        -
+          name : BTN_ACTION2
+          identifier : 0x2f4cc2251999cb15
+          internal_properties : CAAAAAgAAADyWb4rE/SWVx4pZNddBM/oDSoRacwQOfA+Ndgy36ZQjbsfNitE01lPqsJztSCGQHUBvE/FMePSow9g5oy6Niw6uNEPsAzE38tiQ6wRKgBXoirdUG/qV+0o/n+gFmEzNL0NDVY7siaFP2WoI619m+unFThzdl3m+WGyjQEqC7U7usJZ7O19tKQ0IY3Dma25v7/oB2dRQcAEkSuy8+4H7obniaMPqxg6G2q904iaYAbiyaB+VMImb6OTypAKXSj43RyfqHC42QMyx0ukXBJDcZRujDfr6CUryDXsKJ7gA7a1ex9RkGNc5+pvswJeUjkIhl4Wh38ZoYmTUnb8IW1WpiTGRglbPU1uqWYxYMScz//7nwN1bIYlCBWDsz1hOuzeV1hELP1zIFylr4Xt65BvrC+9bJdcQZrm2QXafvqF4U7g0vJjhW/H4Rru7SMcKZxqV7z3944n55J5g2jkDo5kms22sLPjeMBMvTOQk+kIQAkX+BWpsLtU/C1oRhMLKxgxZXo6kPuleKsyMRTiftHBMfhFrdZsAY5CLkNO13jrzQRH09SaW4o1Kq8ByaXy1BFYcVD7TtoudZlEZYK/0XgDTC6SzyS7mNMhJ7KdCllsbQvuEJ8X51eDL61O++/EE8i/MOJxP0hyaDK+LSfnMaoXOlARQrDLUhFwHXtO6qoJr7RC90AsyRKembAdxv8Rgm8/XdCgLB3FVdNAq5dm9XdPLFDUIbCIyBSsOfc3+DcPvO8gmOK58ZjBK44N6w39nJMiNDr8lWTZC/QIdV7ql9kciKJh9ci2otPhFr7g6PYl2/TSri7v7sDcKlS7WnFZ28rPLXA98hi1mehp1X29CXVumjDJsYMAX57SOMzVvr6lsu9rjoDceN7Ioi2sNJ5ijFxsbPf5g7NeZVQY26r/CP71RKVLiHcPlbRsRAolNNaew8rtDgRI8BI3LzT8jblIpOZPt15glzQtuUHlZVQDQeqsud3zJGWnxVdOyQ==
+          properties :
+           x : 24
+           y : 8
+           width : 68
+           height : 54
+          type : 4
+          code_elements :
+           type_code : 4
+           p_codes :
+            -
+              code : |1-
+               SI FenEtat( FEN_MULTIMEDIA ) = Inexistant ALORS
+               	FEN_MULTIMEDIA.OuvreFenêtreMobile()
+               SINON
+               	FenEtat( FEN_MULTIMEDIA, Actif )
+               FIN
+              type : 18
+            -
+              type : 161
+              enabled : false
+        -
+          name : LIB_TitreAction2
+          identifier : 0x2f4cc225199acb24
+          internal_properties : CAAAAAgAAACvjuVDIVW+2nxPECCgPz5Uo6spdrXXOIRXVS7Gfd/UXFx1oTbtck54DADTlKxY7VDYw6UTJs56QT8qlPnplX8wFrwerBdk8rDilLr1B1U6O64H4BgJ8KJTmPJmc6eYjiiXiIAVX9NzaBqjOYbEEiVm6TpYRsqa8Xl5leWt6TZeEwTT+sx3KGZ79lfKFrEL/2I2bnCYphERIYX484LRKRiZUT4M3n7KoMzked8ylReP11e6zH/GKvrHwPDZWFe54tG5hlHHei7TJgB1TSsjpnWVUCB0y9o4nHQq8ZEK65x4edFEsWe92+Zeu6NBfngQVAswTy9Ml1AxylXQ0hSWXxg4DaNBz8sZ29fKzcV3n18/UvMoQaIyqqAB/nzdLX8srOGzriOmmjNF8k45FcFXv1jM2Vz1IsImHQpEtkSj6qs7r4j7n9I3w4KUJ+KevXrJVPyLXYUuB1vs1PJ63BiJ1y4GNYNR++gXFo252UHuwNRCrBS2Mr2SE2QEZyRFwReVWBIbnI4R+BSamHWmgKAAHVqeFF/DWtOfHaVf6AhE+oSBooJbmJgJNYVSTO2ZKc0ZiJs=
+          properties :
+           x : 1
+           y : 70
+           width : 113
+           height : 41
+          type : 3
+          code_elements :
+           type_code : 2
+           p_codes : []
+    type : 97
+    controls : []
+    code_elements :
+     type_code : 126
+     p_codes :
+      -
+        code : |1+
+         // Le clic sur la ZML execute simplement le code du bouton associé
+         ExécuteTraitement(BTN_ACTION2, trtClic)
+        type : 33
+      -
+        type : 222
+        enabled : false
+      -
+        type : 223
+        enabled : false
+  -
+    name : ZM_ACTION3
+    identifier : 0x2f4cc225199ccb24
+    internal_properties : CAAAAAgAAAAXpC+xJGRDW914YLSGPcSbDvdmhakYTEodTZkMrbHD+pgmkDr7hvt5lkRSIY+TSeysLEus4flShxQ/o1tItvi+A0lcJSompcHt+eMDJmP+/hni8zude04oBwnDCnAn+VJDkViT3cvxYHAVK3iFk8UJnbn8lJN4GUJOKh7/mU9rTiVIqi/Bk/yJG3fLSWgSs7QL+GBXyV0gVHBxvuJ4fzrx/3PFyAAfEt4Hn2jkU2LkNCyEBDV1m+5lkEIXTjk9U/zq8uIx7qvqq6Y42//RJjoc+cwNlgnUDF0crN4BRGIFdP+Jtrzw+h9nwLplhNxTKyKYKsMs4n6f6wPMMVJoBiuzAvEL++BGHyKI2iIhS4u4PtLSK0AIg4J56uVI+p6IfpOKuSYo0VHrX9GX0BYLlEZsBSmSv+4rFTcrQlzBdWDDB9KI9m+J0viTA65wWVR9QVYNb45uZE6gS63c567L/ZMc0v37r10BWWQtpJMYe5/h8hfE+GhYI5Ap/mob3aSqKF/S1YDkfg9fQ+AXJraoHI/RZmVFqgEBbgk0UsZCW6PNbCn1ZxugCCHoePXIubGFh+nF86cride4DxEZDZcIegR5xWLSZxeJWUxapuQmzo6kXMgD1CGiDEoDXhbNx+jEJUZFS3+IuWF8ErciIjbYYk6nFNOlGaAjIcyxrqmfY1BlMEtZNjS3Vc856iQ9GcNpUrBdVfAk3/6LdgWkhb7JNpeEdqHon3gJX6g7x1uXckjxffJBh9qnJXQjlDYDxeiOQqW6Vt8wmddXBpjE6VqqZiKKvChSTjOD8QrseKdOUbXy7Bw/RpLrfycz35tEcfkUfy+fNNumkWCnSvpUAXzfJe6LKSToSITAPv8=
+    properties :
+     x : 168
+     y : 390
+     width : 115
+     height : 118
+    rows :
+     -
+       internal_properties : CAAAAAgAAAD2xGgP33NjctjRD+0SwDCGU96ruuYva+25NRkDZv8GtlwRFLkqlwPzpREHQdxHieOIsblwI2lS78us6O0LRIfv0rO5o4uvmOErpJCh1+oXKOmfw06VVh7IISxhxjOfMqpvHEIkEGxVTW/HPUjxT2/yeud8RbE=
+       controls :
+        -
+          name : BTN_ACTION3
+          identifier : 0x2f4cc225199ecb24
+          internal_properties : CAAAAAgAAABsaaqZiOvvEUMI1OtFoMGuh5uYl3gorkTdhF22PojdY7oOH5ED87+C9ihGUTg39bVBWH7oyCOaIh6h6K1tToqrUxBpLouB+tIJp34qIxDY9lHNRbQX3bebGoHmZvGksS6st/nZpqOHUf2NY0zvwcDpUsuFaV5Hox7Vmdavnh3G8w9mRq3wZQHgY4xdAzW1Q0UMvBErAYI74TbswSYZoXhXIGHsya99SZfeCXMldzxEKShFXJet7ijR75QPDWaaATJTrSeTRmPJ63Qo1L/4GWdDNVyZc0u8+HX3hDJ0nfsF8iOpXiqT54yual13TzH6qTNKdeqb5WkeVIWZe5cqpSmFiqPH4+0UCO3pHDlu5laUVDvg0YlRpXme/PVqusmE8nqAInyXt5HkYt9terfuE/Ngj7+cD0XgSMJ4LutEXIXKTGGDX1I7yLVEig58bhvO42GIS7C79PEy/T5YvqAnHJtDHXi3os5g/M0EUqPAy48pCUtwN+UN+73gUcJ90rjcxi60kG89+dc7wvytyfl1pZVUwXSPgniuMdAb/nxGl8UQDWIjpNbXIBY1CRQQTv1KYImH78du8pU+7mNgD88ghyoPjsv2stiOn7Lu0hjUdv3QMicDaoSmfNflp8YgFJgedcwHa+DzFEsYFB2eRo35fWrnXNwT3X12t0I78rgsWq1Ko3FAZy+j/csah5MvqRG1k/c8KjFNSOws5JX9NiOtAlgyC/dB0SG7oGbgS7zFNuGmedq95dlV8ic+slMmtVVlTapKoIJgeLXBT8uo5qwqsCWFiyi+wPwqn3rjc1S0Jaohtg5BhJhscLWL38PC22fUXUZLtoE0G2cX3IHbiSyvG5IJ4eg8BkfXUU85lhNLPe/ClpQxbjQKnoVHdCUxZnXr++Y6cU7yUZiHVpKZgBFTsDqPazIEXooNb3VpL9uZgJjhR9U14dCULbM55eGM7XD/13RCgxz91+Q1ImbTVRLj+UYy0fLn+Uk=
+          properties :
+           x : 23
+           y : 8
+           width : 68
+           height : 54
+          type : 4
+          code_elements :
+           type_code : 4
+           p_codes :
+            -
+              code : |1-
+               SI FenEtat( FEN_APPAREIL ) = Inexistant ALORS
+               	FEN_APPAREIL.OuvreFenêtreMobile()
+               SINON
+               	FenEtat( FEN_APPAREIL, Actif )
+               FIN
+              type : 18
+            -
+              type : 161
+              enabled : false
+        -
+          name : LIB_TitreAction3
+          identifier : 0x2f4cc225199fcb24
+          internal_properties : CAAAAAgAAADX/0ZLLXOhNA4eX5m5lc0MIwI0WTFrlJueABa3zzeTH9MW4q0Z788sme50u+/n08BUvO6UUVoUq162wY6CS9B9+LSUSTRzrqsPWNQNsApgBmbU+HGGDtYfPnKfeyk6opZUyNBMKDtLC778uyjVNg+FK0x16WOaiOxaKia9GctWw+77+iPS4g2dq4vQhIUPWZZ7QGzaJvuoX8UqR25zys1/I3KRjDoKtaTGlLOF1sPMSppsr5NG2f9/zl5Q5kKv0bkU0xYqjYayBuNCRr/I7mew12t1gSfxSXqukuedb/n7jaVf1Q4G/Tzn2JrXOv4jeJhQ7I3dvXQ85LtJXe+pKyHq7LX35psthKDZmEN7W66dlJlYqEkgsOkwfGmcQPTQ4ULmq0sU51mmlkkqyz3mM1mOoLgRf3Q5+rYR3jLwWQn4ZGTzfyLAaBu+kI5v5SlTOccNaCVdz6ECesBLYgYTEDiBwjnVD6AeT4txcUv1JxGYw8mlgerGEq9DROuXh/Fdop68RA==
+          properties :
+           x : 1
+           y : 70
+           width : 113
+           height : 41
+          type : 3
+          code_elements :
+           type_code : 2
+           p_codes : []
+    type : 97
+    controls : []
+    code_elements :
+     type_code : 126
+     p_codes :
+      -
+        code : |1+
+         // Le clic sur la ZML execute simplement le code du bouton associé
+         ExécuteTraitement(BTN_ACTION3, trtClic)
+         
+        type : 33
+      -
+        type : 222
+        enabled : false
+      -
+        type : 223
+        enabled : false
+  -
+    name : ZM_ACTION4
+    identifier : 0x2f4cc22519abcb24
+    internal_properties : CAAAAAgAAAB1v4vHjQhM3k3P0K26Xq/OFjzCws/yQDErtA7ui/B39sWIacHDylJd25+NicsRL2cDZX9ZBtVOwUzZORJiVZdgA81R9qD699wHVhd54NKQRUZvUCQ23/MehSfjalGTr5UBisTkrxAN0CeSKBvC1waEFjmSNkwSA8r0yBtHs5+YN59j8tBdvntpVdlSYSuP/WSCsPUU/u6EbOPJpvRwsSIWOAef0CTRycCBxP9PQPwnZF0Lerngef3x8GJxDOHq2bUpP/F0MIwd2m/Eai65eVSfGdhGtlbyRgts9rBQmM3kjXEJsJsBFIT3c9yeJz66qtKSUmsCGKm9UIbRqXCf148s+sc5CUTkqw7tDDs0pi3PYrr324jRuCh/1Ve1FgRTtF9jIF1asOgclFBHDUrzy38tXsRJn6IGGNuw48RdFELkKovGMolC91Q3rkohtI1Ns4BwKcFWjcNexZCCsrcS/Qf2lXG0kRDkhSYIgm5pzhv7jmDs41qJ8GAhOxjcYP1QrjlBJXfAU3x3V3OLzYPfDl/b+2GUhsy46IsPPFe9DIulCtwzgLc1/bF0b6nruqiz93/Gx94XBqzOLWiTai5d/FLnKhJRNfQW6zQlBO2pxzg4mnOVt4ER8+Rh/TRwcI/oV7LgwxQuZqKQMF7c8xGlOsghB29aB3VcsULmwsKykOK9/BDN57hkigHTlSBoIkID+vDov/V0ztE/BKzeFjEmurHuk0v3bb32EcL4wzQap7zbRaf5iCSiwEI9i3y8oNGU+qNPAKas5pS9PosYDtmXSmZIRw6vNHCsxy4PjOpX0MVCsr9bNeb1kEbGg63BPbE0uOXtu6Y1EgOnoKzUnGYGX2bBqq9OvXsRZg==
+    properties :
+     x : 37
+     y : 390
+     width : 115
+     height : 117
+    rows :
+     -
+       internal_properties : CAAAAAgAAAD/P3emhIJKX4WOgk6nyY0ruGXWiYuOYs4aNSF5iLPS6kb9fkVYmR/5T91XPya7r7LogUnAk3ky3+t8UEWj3K+Hupth+9Nm45zep8dc9PMMIZDEwJGiW5lHqAMEce6ch21wJWMLL21UuoAopv9QiKyNm4CFTLg=
+       controls :
+        -
+          name : BTN_ACTION4
+          identifier : 0x2f4cc22519adcb24
+          internal_properties : CAAAAAgAAABb7+7M1EWNwiHcU46HjvIMgVpqQpEnE/CYiOoL/BLBEI6YU98BcRIajf4D1PO0owdaRSz6uAJVT65T9BDoFd3SRrQrXxoiKo8P1eIEErGL+NuvBRwzMPKTqGH2wCKFtuwbTy4yJATQtN85s0kUgxTBATuJJS/OG4BC6juQfuguRCQY3q84nFsLAqlrR8xbTbORwAmeOWEjWsHDk+kLlQM9dAafrVsl3d/2cVXfGHrkrAjak2lFz1ZfvcFkoW1G5FpBSH4XQAuBC8cxJWXcNbtZGqePTL3hWLUmdHtRLyPQXA5nB1HjOFbAwQIi8jDj538y4okH7nbcHzKycB5PsYoFWo9rWpUHnnRHogcx/JFTTgOq+X3hmI3CYT3/jiDrP+lNnx0JvAg7q9vAYKhGJVCPxAbP2UPzOnbdK8tsyNu3HS3Lo8+j8MAcoZGR1//l01RvEBd8TMA+xSds7fmT0fTfQSy5ztPShc5g52cI0A1tu2cngvGalP7hQnzY8mnaoKkbmz6zS1tD3SSZyo0B6JWNSaxqTDFGLgPbW2I5JdvXF09c5odUgQ8Ihestx/NSR53IzS6VuHy6wQ8sTkq9Os/kKJd2FRhuaxJcS1KEOy0RCRvPP0soONvggIgnWyLN0yBMjs+vc90qdzAExnhP6Mf32+dCk1rlj0+rpS2DRxofzX2diiFVFBhpKV7PIxpyq7tMzG0FTdgwu0S9HK3LXkEkIvEKDyxK6EoxJOt+ccLOdWitvXaXxyOEJ+XFlxA3OPdm6dAT5aTpeLLK3wHGVk9jUMGPkRLsQA7ZG7G3CVY3CsPkq1URo9b3WZx8D+DJBmy63z1Wgj3FF8hQlN1wYJWfFDDlMZgysYdPAjLIO27h4+TyVrKsxLo1LooWg9Ftqvhhz1d+vTZFoMTnYHWGQf1Q7GVNH/ZYkZdHznATqqT2TYg+/t+lG28+6Cw7BN4iD432YY0dTz6VBmPr/tlIad821w==
+          properties :
+           x : 23
+           y : 8
+           width : 68
+           height : 54
+          type : 4
+          code_elements :
+           type_code : 4
+           p_codes :
+            -
+              code : |1-
+               SI FenEtat( FEN_CONNECTIVITE ) = Inexistant ALORS
+               	FEN_CONNECTIVITE.OuvreFenêtreMobile()
+               SINON
+               	FenEtat( FEN_CONNECTIVITE, Actif )
+               FIN
+              type : 18
+            -
+              type : 161
+              enabled : false
+        -
+          name : LIB_TitreAction4
+          identifier : 0x2f4cc22519aecb24
+          internal_properties : CAAAAAgAAABrCGD2vjPcy05XOgaNfcR8iE62Iu/7dDTbBpxTUArtdB+Qdn065lu25u/hfeTxwS/VoKbsr8l92Aey67RWC0sgs64OsHkjq1UwAmS4YLf/MDrmoLo7BLre2vPXfFY80tT+harvarxD5S1OLpGB7zwg67jf8HwZKoFzCbc6IdzjQ4LAbHesj4uIOddiLh7mBkViulg0QCuqEaIzl+11anlJwXED+2IbGgL9T9ahmrmt1ew1hwNV4xef6QtGhfAbuSoo6do4Aeowt7QoRIH/cWBOKrVlcX2DoQfhMBdlEghaMb7JGwjUf6RcR159HN/Ada5bUlG5nSQ+xUCRy3my3GDiSzUf/kn3+AOyAu2RgDcQDGbCTvNEpOHQ3uZfvUT2Q+06gP6hJu5DNkt9st5GPec3PEGQUH1Y3WRJyQeTi4aVOnfryB/5x46FNOVHpDmTy9emEiVdId9AYcPohDxjqda17QIckObvQWPQjwXV0jejoU8szATnV81Gf/HC4sFOQZCNStGqHgRK2w==
+          properties :
+           x : 1
+           y : 70
+           width : 113
+           height : 41
+          type : 3
+          code_elements :
+           type_code : 2
+           p_codes : []
+    type : 97
+    controls : []
+    code_elements :
+     type_code : 126
+     p_codes :
+      -
+        code : |1+
+         // Le clic sur la ZML execute simplement le code du bouton associé
+         ExécuteTraitement(BTN_ACTION4, trtClic)
+         
+        type : 33
+      -
+        type : 222
+        enabled : false
+      -
+        type : 223
+        enabled : false
+  -
+    name : IMG_Visuel
+    identifier : 0x2f4cc22519b0cb24
+    internal_properties : CAAAAAgAAADR8RojWMRcctA8YfzZyjIDHtuQ3XN75ZV/IqOAfpDdDl03hZM1QbrcYe1JdX5O57qTBFhMexp+YUISFEcEztlxFVZ9jf6eNQ95vw8hU3I3sh1m0e3Hy5DmFTFpYF2+b3i5UAwyIsbrhUhxWSuHr9FffvG1vNIEvFH11tdMTHZ8u61A4FK84rR+JKvnJDQ+hJlJa35yuZWDdN03YKB9edqBrvLysJgHSTvxDHrdQDbvquB78aVlG1ilpZAYGZ+RkPJg6msvo+ZSmNCn0Ra27TYvtgcf0U8LME0LGUjKKOxUT8hr8ePBYznNidZrCnhdZXq2ZTW4KML129W5ZN5WZOtCbWPl3Id9LM9AiqgTBCnvIc/Fctgk/nrmupsBT4ePevkkHp+yMYCGeGGMUMsW1ULGZPPsbuSWMhpxQmSGMrKruneghW+aSrzDqi7hEMF1yKJ/b022yjnBtpauoWx0jOkJKfhRm7xORVBOJ8a3NNqnUurQ+PzEyX9EmuxEjHs9HYdPK06hzg2xtPXWp8Q0k2dXUHUreyq+Q/T1fNwyolQFxbi71ndCpe9AvJcZFEaFBl7epD3KybYSQG/RBoyPPT6WHWefre8rR3xRnluCVWSNkM8XEbjrzRFh9lihSto0+BCb2B4AlTc2cRNIV6qV7kxKry3HNCeBkfzGWxZN2JZ/Rpr4m1wbz+KTkPCGd7jlu0Es8azJZRd1CHgrli0jQsioJ/ld4maW0Rx7/a+UwcvKxaOdt2MpvVIGv7ORS89SapG07J2x1gzr83jBZu+Jn4fJQ9a2OKseJ/UwJiJE9N52cBqO7E2gPzBeMGhctEryH3RUTx5biMRefH1UR2CBg6u+Uw==
+    properties :
+     width : 320
+     height : 244
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1+
+         moimeme..Opacité=80
+        type : 14
+      -
+        type : 18
+        enabled : false
+  -
+    name : LIB_Nom_Utilisateur
+    identifier : 0x2f4cc22519b1cb24
+    internal_properties : CAAAAAgAAAAUSyEZ1LaZQBo0OUhWqTzTUJHOd5Xar6WAcyvnFjglDqM9M+OvWMrAMnvmZHH5VWzQmf1uinJyPX+5JkUPNmsgxRL4M8a6yGs3mgcjEpIoPTh+heCxeysKS1f781RtO/FV6bdkkrYfmkQ8fRCQ1YpfEfbp79Qmyto6GMPki/R2nXp3PI4AFgANgwHSDEOkDyA9s71wMN/RPZ7q8BIA3DG5LKER7ObTiE3+AQtMGsGwVmSDImUICNW81vbwn4oF8+r/1QBAupk9C2KGBgWSTo9ZA30TP5rhkR+rEJwlYNPewKgMg05B4RKgCCrpf3ohEldGLFr4AHpKTllfTk2nsHLwFbrbiZJ+sqVv3XvjEn8a6dYU5bNMbD0Q9nZ8+3OPcZyn24QPgiakTZ0dPVoo1jiJcWtU6p2ABDFuEwjvG03oM7u2yDClGp+X66fkLJvfec3l9Ro8P/e0vz7WTZjxbAIvN+8lRh5L17Q327qrKk8Y/fVv+xNLepfiEpRzCLP5Qw==
+    properties :
+     x : 36
+     y : 151
+     width : 248
+     height : 45
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : LIB_TotalDistance
+    identifier : 0x2f4cc22519b2cb24
+    internal_properties : CAAAAAgAAAA5ei6AQW4Whi0JyXiC3ne3Z8WBPHIvOkiHoQrdxvP1T6KhygIYqxx91l3xj/9dyFSbSNceA2nKsxsTfgmiTQICr0Mqo8KJFBye2piwpjDUCSiIlx7F1sL+Yy61NEG0BPAHqUZvpuSnHDfBBr2uRkeYHKdwB6h/JfSRObw3anMdBKEx/9uTEsFXTZe3T/XsP6rknd19YMEw5yfeIFTFsimT5KCx/ddcPHakysKdch2GA87bLFs1SQXuruJv3wqMT4sNV1l0jY8drZ6caaSrgNilfegB5XlORayZqnkK+dYXwvAACBUtBFnYMZzSLvTiYspykzbtuYjqGT+v903cuGrWaIvVIQYREXx3/lZRXynLgHaa27b0QXh+CVVSnWNuRaD3WYJqo+JPDqFpJueDWzug/oN7V0QrkYbKli2GFeWVBBN9bP7IHE7VhE5lD42yjrUOnWtt643vVsUL1o1qMkw=
+    properties :
+     x : 36
+     y : 200
+     width : 248
+     height : 29
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : LIB_Version
+    identifier : 0x2f4cc4021a2011a1
+    internal_properties : CAAAAAgAAACwFdSzARlmFFPpj0yvbPIJnYetw36jETVZZynBijHFI6dXaN3O4WopskzfuajJQ+KdPHdiVE4Ofxdn218IzibmOwhT9y28oMoZuqXVOw6TvKhN+jVfhfA338Rfv3UexgD1KSBB/pbf2HpwzfRLLK1IWJAbXPeYP1nGJI/FF1WmOIlH94Av30jhBdxipOp0TexIPj7ybQXh5lFb/evJ7jPn9CSAIxbi1+PhJNYNmwz2dJkw2v1Q3EPpZYHYaco27V5DXUBgcfSgQVgHhSm/kxbfaFehU03xSUF9INXGD43NSpdShBp/jhag4Fj4Kw2/fW8maQ98TFsO87oWZHkYMPkwG3azZExNMuqvV5JIhcpaPJB1hCggsJp0pt6RIxh7bIvJX77dCD9nm2SWHUH/jTdE2e5wxmO9Ex/8bf+jjaxgukFFQsbQA8+kJrGoTxksXpKKhRD0FKv9sxWAukLPIkCEbAi0Bh8hw2iiEpzahwh8Y4qZooSFW7QuzayHDkt8
+    properties :
+     x : 37
+     y : 524
+     width : 247
+     height : 19
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+         <compile si TypeConfiguration=Android>
+         
+         moimeme = "Version Android"
+         
+         <FIN>
+         
+         <compile si TypeConfiguration=iOS>
+         
+         moimeme = "Version iOS"
+         
+         <FIN>
+        type : 14
+  -
+    name : LIB_NUM_VERSION
+    identifier : 0x2f4cc4341a61d511
+    internal_properties : CAAAAAgAAADgHK6IkxURBRi7PfAfXJJfWDeEaSFvfWMP7gJ501tkYle/iekntv04sIBS8i+kSYpSPpODPHMMMdLv2cIvT07ZNvz60aXdFSyr3WoqwMnPRtd9MrR8q+zfNWWOXXPIVXD5PPpXIHPd2RvrICWWIM9iE9gw/HUgRV73yYjIRu7C/ze8lj7D+qMP2/96bjUtMyotPJYEWnnIUteGWsTB0hmF6w6NaXkbxWFEYDg33otCNNy6RuuHtXhudpcdwLg/OqN5+z2+CSlo0qyXs2nCBZwUHMFA9KXTLckrArdiKtM/Nd1osUDIQOikNFZoCIbovygf23B4fZx9hQVffn/UDcPIB5A5HHIWWs8lzsbFasa443z2sngyA107R/P+3WvEKvvDF6FaKAFtlgxqkTeaZUa0MEANFnj28if+EtbFC5HzpWZ06Rfto00Twc9EnDs3eUsxgEnqFxA0ihrl4wBysKgoCOZFNZwIxKiaDd70fqUsj/Vx
+    properties :
+     x : 37
+     y : 543
+     width : 247
+     height : 19
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1+
+         
+         si EnModeSimulateur() ALORS
+         
+         	moimeme = versionwindev()	
+         	
+         sinon
+         	
+         	
+         	<COMPILE SI TypeConfiguration=Android>
+         		
+         		MoiMême = SysVersionAndroid( sysVersionNuméro )
+         		
+         	<FIN>
+         	
+         	<COMPILE SI TypeConfiguration=iOS>
+         		
+         		MoiMême = SysVersionIOS()
+         		
+         	<FIN>
+         	
+         FIN
+        type : 14
+ actionbar :
+  name : ACTB_ActionBar
+  identifier : 0x2f4cc5661bc08189
+  internal_properties : CAAAAAgAAAD/8cp1pB7SpIjLngNERDBa0M1nsJZv+bxUpbLDna7Ol8lc1pAYiDzVal67gq9ZtnVzIhO3yvn5qqRTnSlQtTc+fkT0tNaiQGkzoUWF1MI1ns7U1rdtYi1pFISh77KrHeeVnMujpZMFmhJvZ+7nynGuZxBQ7aBU3Td0ZV89X5FghM6zBtGIb+8lOB6GUKaoD7gchfbmEWshnXsLb2QyzaxNtwe4dtBABy65RVuxCBxKTl0+eTCHY9qprHb33s+EeKo1Wh9Vak37qyMEyVNTO/FVCIYoSfJQndt8GKfoYcxiTQ3Qi8lKwKiWjW27D3q1sdGwd90HBpO+uRWT2GkhJSAT72BYe21AF3bJrhqu8DGej5CqRaF+i6BSicfIIAUn8ozVOH0yRH/6dUamRiD7pz5wGt6lBd+h4g==
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      type : 229
+      enabled : false
+    -
+      type : 239
+      enabled : false
+    -
+      type : 240
+      enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x29f8144500a4e5ba
+  internal_properties : CAAAAAgAAAByVTsSr3/syDi1St8xf8fgHxdhV816G1q5zyODGkOm1npuSkYo5g/jXWoWFFK2H3oUBZtHLsT5rfRCnVFNNS0taWG501M84VhyiY2gqfWqbb5TaLNBc7/5X5PbRqVlZ5a3p7SznWjoHPbzt8FGrVw2pkxQ2AMTSCoEquPAoSRRZmCgf0llwPSIdkz+fkQsa3yCb/aARC1IuAmTNbEAkdknQHeBdhsRIWlMefD05RVbqvlMGzysSB4KUPZWTHHaQPB4ObHU/5KQ/VjN8jyQaoRgKuGxrJ5V23KTuMr/Zw==
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAABKff4sxysR+9kg8GIJ708iDvb5GJxqytSUKL54fomJ9xlu42EWUFv/+en+BSQDmdB2krqVslwL/1eyQDVw8sffQk7lF3aDfZNzV/+zROsnKAy1jaSejRR5UgML
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      PROCEDURE MaFenêtre()
+      
+      <si CibleExécution=Android>
+      //setNavBarColor("#263238")	
+      <fin>
+   -
+     code : |1-
+      
+      si MaFenêtreFille..ValeurRenvoyée pas dans ( null, "" ) ALORS
+      	
+      	sFenêtre est une chaine = MaFenêtreFille..ValeurRenvoyée
+      	OuvreEnsuite( sFenêtre )
+      	
+      sinon
+      	fenetat( mafenetre, actif )
+      FIN
+     type : 177
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+  procedures :
+   -
+     name : ExecuteBouton
+     procedure_id : 2255390977586940693
+     type_code : 14
+     code : |1+
+      PROCEDURE ExecuteBouton(pChampZML)
+      // recherche le premier bouton et execute son action
+      i est un entier = 1
+      BOUCLE
+      	sResChamp est une chaine  = EnumèreChamp(pChampZML..nomcomplet, i)
+      	si sResChamp="" alors sortir
+      	si {sResChamp, indChamp}..type=typBouton alors
+      		ExécuteTraitement(sResChamp, trtclic)
+      		retour
+      	FIN
+      FIN
+     type : 458752
+   -
+     name : OuvreEnsuite
+     procedure_id : 2292892265487133437
+     type_code : 14
+     code : |1-
+      // Résumé : Ouvre une fenêtre
+      // Syntaxe :
+      //OuvreEnsuite (<sFenêtre> est chaîne)
+      //
+      // Paramètres :
+      //	sFenêtre (chaîne UNICODE) : Fenêtre à ouvrir
+      // Valeur de retour :
+      // 	Aucune
+      //
+      
+      procédure OuvreEnsuite( local sFenêtre est une chaine )
+      
+      	timersys( () => {
+      		
+      		fintimersys()
+      		OuvreFenêtreMobile( sFenêtre )
+      		
+      	}, 50ms )
+     type : 458752
+   -
+     name : FermeDifféré
+     procedure_id : 2292893446603218589
+     type_code : 14
+     code : |1-
+      // Résumé : Ferme une fenêtre
+      // Syntaxe :
+      //FermeDifféré (<sFenêtre> est chaîne)
+      //
+      // Paramètres :
+      //	sFenêtre (chaîne UNICODE) : Nom de la fenêtre à fermer
+      // Valeur de retour :
+      // 	Aucune
+      
+      procédure FermeDifféré( local sFenêtre est une chaine ) 
+      
+      	timersys( () => { 
+      
+      		fintimersys()
+      		ferme( sFenêtre, "" )	
+      				
+      	}, 50ms )
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAAB6ragasMBWLfpsSyU19J6lAvYEqFWd1xYOjmHr1XHVZOVmechqLo1vKvfoAJhHeXL59P8BudVQfrBZ/U9vpjDz5RFibMKKm/84EA==
+  original_name : _11
+resources :
+ string_res :
+  identifier : 0x1fbd44f600858a85
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

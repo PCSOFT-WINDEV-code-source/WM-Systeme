@@ -1,0 +1,222 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_CAMERA
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_CAMERA
+ identifier : 0x2f4cee9706da6930
+ internal_properties : CAAAAAgAAAD1oNt9mbhZ4XaWhcDOWcFtYLGtY0SW8be6+vO7LYUGsAPuODeTt48Fjk2YJ+A5p9/+MQb6Fsva+LmWgRWwu8KcRCBGdpKYwyDr2uayjAVeFMukQi1r4zMCas2gzuGKQBmeOApMHXwQbIJOoxTQqp3yimOV4pQtE2BweoA8nsWYeKYTsDUNAmtHglyOffVpIxjnOMfusjE7grMnUOCvb+KVjqBQzHjiSB5hSu7zMtS8RwPlABE5lW8nCzjFuE7EkPUAUNAAyBWjTmpdFhFnQHv1rvhQ4zLPudBjKRFbT4Et6SVmjMA/UJDgjJPIo9jelZqUBHbory/OqPPvD6TJE+CjEpF5S7gl/1HdPpHo36iYIuhrodwyQmARZCS4buetyua2ZnQdIXalGbnlaOsXqnj75zy/tNyLdjtjU85mGwEYPfIE/3kQXDXavvOkrH1wRTPovKd14Qw79SqrReNoH/CUfVQK3XcM+hamtkSpnsjSdPVnmbxBk95+/ZVMaDJC+mqH60Mdl18uoGlMkFR7ve5mRgmZR+vRNMPqhELDZCJJocrnnSkn1QoG5zvAuT0KhVAzac+XS2r3Zm9pprGnDTHZaDQmS5GyD54D/CCQUux1R5C2Lcw61OG7ldOnf8KiS5W6+kqdhsmDXybpJCzHce+KmaaMfblJwnJnWBQiag/R6EgpxsB7BMaon2cjgzusbAYs/akuOk8+RQuaAGprNuAfDmOWqTAyICobOi8AUuk9GRDeVeL3EI9fOyH1YrEZ0DOgHmiQNzK8Yp7TEwLJJV3LNW2DoqGErCFMfu1KYiIdwaDI5kiQlcr0JpOnJZvngI5jg64Gli3VTTvIwCWCF113pI1p85+CckikRJh3UHb9griC7+StJ4w8MR0=
+ properties :
+  width : 568
+  height : 320
+ controls :
+  -
+    name : CAM_caméra
+    identifier : 0x2f4ceebd070afca6
+    internal_properties : CAAAAAgAAACokSZC/1aWs5zG4TouE41vYFapeD8aBNmLAtZQmYwIs0X/MnlLR9rtv68EkKsn4KyKMhnGuVMczjj1XjstEI6NDhlv9oW11jc/9dedun7h5zzCg52NLtXuCHi0YbomciqQPaYCf6wGXwbwNyLgs2tAh119VPyCvOeKSM3H/nMIHJaaaAkYpCBJyPVkSzI/ykPNCPyf+sVfZHENkIPpssuTGhrMnLozwFAJU11nAqZfhRxyBaaIaZcM6xYDGKBKQES+8c9zqc/bkIYVlMHx4FIhUINxypBvOPNYBVz45s/gZ9uwVAnUe4ZZBT0IjNJ7JOGN7YrCqSoprgrliNNWWvgImKC738EWLP7W7iRAsn3l6SuYLsxpGkhuW3FYFmQeEfh31qv/3LplrqaRMxo86VkJJVk6D8YZYlqN+Hz/BA8JI1+ldZ/AdXo0dVCd0PANUppR3BrYBSBUWDfivPMMpndFWbXI6eA6v8BASLI1I6hg9TVGf7cgi7ebPMUoghmH0KSPUTrI9JbNtwXPD7gz1q/oL0QlwuX2pGBwq6c=
+    properties :
+     width : 458
+     height : 320
+    type : 24
+    code_elements :
+     type_code : 37
+     p_codes :
+      -
+        type : 237
+        enabled : false
+  -
+    name : BTN_Photo
+    identifier : 0x2f4ceebf070c02a1
+    internal_properties : CAAAAAgAAABgHCnpx+ZilB0tWxDtCNW/PO8xv3zGL0lTq8N++WLCjzdbD/UwLr1KN9zPCc4wKomymitDd6CoiDEy9asBnpR+A7xRs/thI3gZ0ELRcPA2InXXLRqTSokLxuB2oZ31NRnewbiJUre5ZHkocUjJnItWTY1BT8YRROo3A91VOpg5M7zGJ5LH8HStJPqUjsY5rQ1OHPZo9TFB0qsTKZmOkcIbOznh8VR7pXGgyWs4DS8Kzg93+t75ep6yuYdFnMZQHkWgOfDcbfT/HYdyvSjR92pNuPaarUoSOaFLXhb3BazBwkoR+5j2ohN5+IyOI7fa7L4PYpZ4qvQ/7zBIqVGI6/hCXvH6c73cGDVCRczUTe+/bQaiXEDpqYgWW+McY4wwM6AgmUU15YUb8BWM1/dVS35XeHVsvA+F5Vn7avk3kReVE7/P7LqPcx8l1Qtz590LLLxgeuGJ+PWkgzZ0Qux3WxsaW1/IRD3enmr1LeUAXWV6bdf65xlYQGI1KOSLEKBLVTbK0y/WSKfAKCYb2wrjJ5QKIV83fOpW4HaTtXWGK8iVUzXmQxWZFEB5vWCTOo34Ki139Pnmkmzup0h5rLYErGhyS4v5iQIJKqgdNQDOhrd5FbN2j+Ipvg+7jNX8KaLap5HIljl7hrJgOrws+qKnqoHPx+NIgn76s9IMiaw8rVBDyWWn7S74yfzFBTJ3dHFXjG5pUCs4wVR/Y5gvFvOxVKo+SxqEdsdXYp2WhVEeI9t0PL/7z5P1n+Y0yPU/VwVOkpPAswrTO6Z2C8V2+VbqASev3WqwTPp59cpF26vuOGw4TJhXvMMk10HTjF8MSRaFEciqR6MxVJW5HFuuvXO14C5FCwupBK8al9tMiujEFuQNVG3MfwJjPl5lB2iigeA1ainLiJ+Cui5jSGlE5D+uwtE/Jv7KLr+iRl+FcUwWJp2Lke94KdHqBcq5ZlUv8BM+lSz5EB+oRKGlM7+h1SJ9OIQIs/0gBx36ZldC70jtNZGjNLnzMaoniqNA+K7obuYoo4IZyVUS
+    properties :
+     x : 480
+     y : 105
+     width : 67
+     height : 67
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAADk45AOEYE2SIcGS67+44yrzyBFeSixBCaNk697YaO+C/M48G2BQUcnkrITcYFe3ygzYBtjh3tHPsVSoGvN1hXZAu2wHSicdYrz06AGozbz+5hXaqNTo/9Fjf+97BKFkFc0W3ktHJsOF1S9VQ==
+        code : |1-
+         
+         sImage est une chaîne = gsRépertoire + ["/"] +  DateSys() + HeureSys() + ".jpg"
+         
+         // On prend la photo
+         VidéoCapture(CAM_caméra,sImage,viCaptureImage)
+         
+         // On affiche la photo
+         IMG_Last = sImage
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : IMG_FondImage
+    identifier : 0x2f4ceebf070e030f
+    internal_properties : CAAAAAgAAAAjD6na/yqW86K+EfEz2nK9dKwCJBa/bddKPwBOWvCMzT9bLI6wf+I5g192IV5yXgtPvf1sknGZAdNTg2mz4nEnvv2viuhDbHrcGtGeLFMZj5Qdr444i+mhjT7MjDHJ+d4hGFpmn+pnxUnI7fMeUVkZFrglsGitRgZPG1pkzbWHwJ61mJ9r5m9bIML3PMOJKhRqlwDFQHVLeouRrcEki7ezo5NurIt+Tk4lNhMSoqmJqXVPPKQkobyuqwGy5ecJ+S+cDCS+z3mLWh+OrxGc1psIzbOyeluaYu7akorkS9oE3FbHCP5b9ExTWkE0y87+VTIB6r8DpPGgm7su83U7Ru/hxGor2YnKD+hGu/JUzueq4+ta2oKCSeC7JLMbGefA+8DbK8ldFUuGp64z7N4FGjZ6cVpS3BERFo2/fe0ir2K8PIz3yMqcU6IeS5iiJ7BhPiaBcE7STCha22jCE4MFo8yaQK7DTH9DSWs0IX02nZNdwC3tSsMrQ/b/r2E9gYtfR85ZbQm8zTW0hLhZOxbTFSbIMG8Z/PB+1zQ5kGpW/dQcpCzpygU1wnkNgVTVcjFDmyW2tB+SA1z7y8VZz77adUc6lms+gx6+m1eWt3/iYEfIOm3c2w/tClFKkGwuprR+S/FwzYJftRQfMciM5jPzIck+aWSFjaWJ2nKVZuB6SRHEShwRyAf+fJ08oSR1ttjEQt2+sa2oX1f6atjGgQZYpsYjAzWDN+28U6DxjClfx6uwAM4IF/jJ8IQGlBaL/j6JtSMWxISsUxiyC8XA3FRxzmPmHXnbd3S6t2Fp5B6dcm949GwMNFQx/4jL4lw7Lv8dCoydRo65
+    properties :
+     x : 466
+     y : 211
+     width : 94
+     height : 70
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : IMG_Last
+    identifier : 0x2f4ceebf0712036c
+    internal_properties : CAAAAAgAAABkOUFI9UaIKhRRswIyTkmRay74D22z6+HLvkeLhBBJ0uAx/NrC/v+5UWKx0LSDSJ0H3U2CYsMx1X2+jr2L9J3kDfRN9IrvBs2QsSAdnM60GzbPkgpr7l2+p0srpG4Qg3lEEJ1YT8CbwznyEiiUOxvJsgcTgHelc9s/5pCe2fYPjsRDLICdMQvDeYohoGUeWkBaU2kz1/hQTwB8QwwT+DoDQaJAkQB2+Xg6tHa5gELPFnXufOyxpsJbeh0sxGcIINkoxYgXJRjxBROlP/wI2S3fiq236eh445kcTexSvAoO5fy7N3CAhfD3GTYu8uTmG0Nl7ZStgCm1Tu4QPIyFaFrHqvf87ipYnzbX+TC9oB2QiFHlgzRmxMSxMmVy6qtvENeMkjko5wyEyQjDNB4soTGfdP2mfiLQOeXfEefxktoHAZ7mkQzGUGYgeP4I1LYpysb5jXtw3VLTz0Ky++pNpihODsNnNTpMeU+fjHJxgqYnEX2hyc+1HlNNEQOzabbMMZW2buV8lJJe7kTdP4geHybKh7Fgp1ELpT3a4gbxmU5vTsI8S41CgIf29iyyxhDPgO2tY+DAbJ7bzSIBOTOjNeF11/6Xnb/UMYjsHeM/6EJXh6oSEFA4m4I6x60JFhgonozLRwp4lyH2fnaHgexi4ErLZslM2nUDcOnNTILyAuM3e/CKSnfVsStcgt/QOGlFUgPXLOuNdcL0S2n3iaWQ2WSV24CfGHm46Fs3qTDmDSLkE0ZueqbgleTnpo4=
+    properties :
+     x : 468
+     y : 213
+     width : 90
+     height : 66
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         
+         MoiMême = DernièrePhoto()
+        type : 14
+      -
+        code : |1-
+         
+         Si moimeme <> "" ALORS
+         	FEN_Multitouch.ouvrefenetremobile( DernièrePhoto() )
+         FIN
+        type : 18
+  -
+    name : BTN_Rotation_Camera
+    identifier : 0x2f4ceebf071603da
+    internal_properties : CAAAAAgAAADATVd0BvfOP8aa1DYHqrOcwmqUAw8oSpRYsSON+lkH3Uqv3GXng8VB3w7KS5jpjizEPfp41ltOQa5Ou/BmIpOAx6Cr7JLgzPWn2QZaRg4KWMvTRkSvJ0HSfk5oM4ZygwW9ZSSWFCEc+zkyXHe3/EAsXSq5uoYkWh/mZ+1XDH3rNK+i0TVuDQumuzivNVt23tChs65FCiObUJQaBmldtOn+pzDpgnZwi8ae4cOXil5nlX0jdRD2pAbOc7vRTJncYFuY6KNMNivSd4LrNrHgFymCs7QpC2wspAKbjZ3oz/iHB8QjCMKr6/LF5SWZii6i0c4JYC3MpQGOweZOY2y6hic+RRH9T8OcneYwacEsI47ykJTweeQIIAdkfxed/ipsg80+Az4efegi49e2JZFkSnOI8cpFULiVVxC/PN8m4HadLLBSEDGrcNBY+PMxxh66PC6UkAxbFrZVo0mJt3wpu7WBTE0BP1XuUeVkCzB3wLxY+Tfdgb5FwGY82vQtWPRbMVUNC4viXiPeFiEJX2gueNfOmPFoYYJ6uLPxFVrYZ7rKz8Tfj+r5WuT4Q3JH8PP/wl0Bmipb8FYLwZdXugRWKrsE1Uim+xba49t2DTHOLiUniHJ2SI144B1W3T8qTZ07p470GawtMddkiGP2xPbS8AT5qeWAVjMHgMdD88bDqctjDhAycZaDjmGTmfwA5AelVjNTv+oQvm2jPtI9OUHrl9393VK8hXEFjwbd58ZL4wsW0bLlN0zoo/V17EaZcBoDfq+oCfR6nWnP2d4xde1eP7oW3t9tcQHcM72HjwaHwZlIY9QpuVED63qYO3rwfXFS8ZEaErP1BHAy4nq8GoU=
+    properties :
+     x : 489
+     y : 38
+     width : 48
+     height : 48
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         gbModeCaméraFrontale = pas gbModeCaméraFrontale
+         
+         // Rotation de la caméra
+         Si gbModeCaméraFrontale ALORS
+         	VidéoParamètre(vipCaméra,vipCaméraFrontale)
+         SINON
+         	VidéoParamètre(vipCaméra,vipCaméraDorsale)
+         FIN
+        type : 18
+      -
+        type : 161
+        enabled : false
+ actionbar :
+  name : ACTB_ActionBar
+  identifier : 0x2f4cee9706dc6930
+  internal_properties : CAAAAAgAAAAPHMmWuXgdm/xU8GtBd8qQZk/7JCqyY6VFKaRfO0h9ppCpYi1Ejd1aKCR2Yy4WiXd4dkIixI9b8ZrELazWFNCNGI6yIC0z17E5fPL6+y1rhizdQP7JbzZEJkXvLsdej1g2ki8yo7VxyjNKgS0w6KPb5/KpFsdnZ4OMAKM932qznB2g5c+l8mnrvrxOa/1hnsZjGvILWtlSQBwelBzs5OMAZODtls7z2n9iagwlgvG5JV7fXgCt3CNGrYnWYrXJZ0MAQxwd4N5kVmLZgh/uhvoxFLkXB4clP+y3BT1Zgvpw
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      type : 229
+      enabled : false
+    -
+      type : 239
+      enabled : false
+    -
+      type : 240
+      enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x29f8144500a4e5ba
+  internal_properties : CAAAAAgAAAByVTsSr3/syDi1St8xf8fgHxdhV816G1q5zyODGkOm1npuSkYo5g/jXWoWFFK2H3oUBZtHLsT5rfRCnVFNNS0taWG501M84VhyiY2gqfWqbb5TaLNBc7/5X5PbRqVlZ5a3p7SznWjoHPbzt8FGrVw2pkxQ2AMTSCoEquPAoSRRZmCgf0llwPSIdkz+fkQsa3yCb/aARC1IuAmTNbEAkdknQHeBdhsRIWlMefD05RVbqvlMGzysSB4KUPZWTHHaQPB4ObHU/5KQ/VjN8jyQaoRgKuGxrJ5V23KTuMr/Zw==
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAABKff4sxysR+9kg8GIJ708iDvb5GJxqytSUKL54fomJ9xlu42EWUFv/+en+BSQDmdB2krqVslwL/1eyQDVw8sffQk7lF3aDfZNzV/+zROsnKAy1jaSejRR5UgML
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      PROCEDURE MaFenêtre()
+      
+      // Variables locales
+      gsRépertoire			est une chaine	= frepdonnees
+      gbModeCaméraFrontale	est un booléen	= faux
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1+
+      
+      
+      <COMPILE SI TypeConfiguration=Android>
+      	FenOrientation( fenOrientationPortrait )
+      <FIN>
+     type : 2
+  procedures :
+   -
+     name : DernièrePhoto
+     internal_properties : CAAAAAgAAABKpVYgM57zySR0m7lGWANaleLOIrbVkbZ+QIAZSd4yNwCdKzpJONTp7paC7e6WNY5s3Lz1No41UxiUrS6kZIw9N4h6omxKb2oGXuooipu0p7QJ54/7XOH+iifCPPESbNFhQNddoteDvM7pt4gJAQz1Glhu2/VeOV4Rzm2Z/hb2J7MNNacEh7YTyabIMBWRdGWn5Hd2qSI=
+     procedure_id : 2255441125620642730
+     type_code : 14
+     code : |1-
+      // Résumé : Renvoyer le chemin de la dernière photo prise
+      // Syntaxe :
+      //[ <Résultat> = ] DernièrePhoto ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	chaîne : Le chemin de la dernière photo prise
+      //
+      PROCEDURE DernièrePhoto()
+      
+      sImage est une chaine
+      sListeFichier est une chaine
+      
+      sListeFichier = fListeFichier( gsRépertoire + [ "/" ] +  "*.jpg", frNonRécursif )
+      
+      // Pour chaque fichier trouvé
+      POUR TOUTE CHAINE UnFichier DE sListeFichier SEPAREE PAR RC
+      	// Si c'est l'image est plus récente on la garde
+      	Si sImage = "" _OU_ UnFichier > sImage ALORS
+      		sImage = UnFichier
+      	FIN
+      FIN
+      
+      RENVOYER sImage
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAAB6ragasMBWLfpsSyU19J6lAvYEqFWd1xYOjmHr1XHVZOVmechqLo1vKvfoAJhHeXL59P8BudVQfrBZ/U9vpjDz5RFibMKKm/84EA==
+  original_name : _11
+resources :
+ string_res :
+  identifier : 0x1fbd44f600928b11
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

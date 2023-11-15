@@ -1,0 +1,153 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_LUMINOSITE
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_LUMINOSITE
+ identifier : 0x2f4d071123cb0459
+ internal_properties : CAAAAAgAAABjWKcgZUoWawN/UrnKIjwG7j4YJImTT6KH5tku1SKpbclN9rNZ8EvGdYUX57EBFvsVHi+yFYGPAOx7RVUzAEdQvYUbamP/oZ/iGvuqFlbWn9jprNu8U/vt607UPvmToTRVUzwbwiHr6j9EitwdJlkdnoCuuUqm/eKi0rsKJMVMof3JsSBF0MZwSbmmsjzni+eW0Xv1W56aQmM3sUjyVMczIEyY20sc2u8JxSazggAkn5OnMWcd0Mytlfdnru2NbTOPf83FYxryPGd3Et9i0ux5h4uI1jOIVao0n2HwASl3idKDaFlTPVFQ5/Pf1Jg5kWWl45R3rM3I3KnClTKHC9ypHarplgQd73kzrzG9YZ/Nxq/kJGEUrI5CLQA6+Hb9OkXBo9Ui+5+f/yiQdhB2rgBX/t64sY7psPVrvpaFKA4T4DzkPw4G4CstzzeZYVVtc+KvsW4pOm9XnvJW1vbIxReUE7PlhtYZsv+MbffaTu4hCEeaZlsWckCZF/AlY5SKp/Z3okAkrgSwNc1h/bMvT8sUjgz8OFho3kxiq2+qzBAe3ZC8MkCEHHKNpdqnflsrsJ/8GJQV/S7+pZP6OznFt1vkXdTZ2CpeNrVYfaVmWc9D+Fe2ZWef80OtPyiWAkW9CzhgDEFgRrb1DNQjebPuqoUJgCb0nZExXOUAbGUGAKswNUGa+JVlmKtcBDFe3U+NKEdFFIZyE9BExSo4FvdWQgxqah7OR8E0BGInbWAssqjaly9ubp6HxYUcLuGhogj1XWgqPAbMWIHMT1K0TlUcFdARYYv62K656AqTWn7DdaC55oK70VH/vMBl+sBTQdxoM9Ajsiiyvw/jl7FESiP5CQjmslFrvTo4YlbO96QB78QxUMEgZEMdQnb9KcDfEQb54DpHcirTjIxq6w==
+ properties :
+  width : 320
+  height : 495
+  heightMin : 568
+ controls :
+  -
+    name : BTN_Auto
+    identifier : 0x2f4d072a23f76574
+    internal_properties : CAAAAAgAAAD1G66YqoAPhu2Kcp6glMxM0gLyDmnwxqhn2x53eYeEeRDvgDcPJYlXmlPhRR+zW7RMI/PutvIUgnwrluzIWEfNsCl3VvVrr7WaMG2Y9n/dTIjbVKubt+LdeLnzPSEAbO6BGtGJsOdJ/TKhrKEr1DfTUOKzBtS/lS04MyxIxtI7TQAqDwCfKQFCmMq7qYjjdf0al2KhHz8Nu9PmXVHHvAQSLOPpI6U93tYWKXdDKcXWKmJZpxey6LXxEawI4KzFXBrLqUNiaPdjexuKiviHLA+n/Gps1Km9zslfVfVQzNMO+ew06Jra/xbex2IyZYpP/WNi2G1RRFOlgro0xqf/TAakZr2nn1uv/AKxwEgcqpcigID5wBCk0kzgZCXm/GkCuITxWgUlhW4DJaWYZEYAU2bM+V8l8ByZqFqNI3LD0D/1+bphYGc/YcB9OmMuqLA2bTQw7fJhsH5GtV1rqjV7Nxq/twBRbx9B+EyTu/2w3tUyYl5A1vTUmPbK/zRt0I11XUt+KliuJV7XzhLhZL/lX6ZlJJdqThVcu4YHY2o1KEIZmLT87dCrVOdIEAP7Kqbm6EpQpuWQMHcaYKdAcWtBGqYLXG7VtD+6oiqlys3soVj3mbQOynRoHoA0WU6z3/4CmfkG7U5V3ixGnch8ByvckdrRIAkuAdHeGvAHT64gagrRcVqi0DAS8W/S10FqObiIhzyDMeXdcycdiKe2tp/EsdBp+no6i3tvt2vx/F615q/SHphcsZF+du6s9DCti6rgyZPqWvmYbzdYe9mvC66yoDsHPJSXZt5JyMDCp+r1JyUNTedr6AhhI/NNz9tJlDOv9dyhYTY2YrflFRjIkLWCXbYNgiT5lFE22Wx+/OtG9ynKz0vquCnkHNK6/mJ+4fZ/3f/lPo9dKntNrVs=
+    properties :
+     x : 79
+     y : 275
+     width : 162
+     height : 74
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         LuminositéModifie(luminositéAuto)
+         
+         // Affichage de la luminosité
+         LIB_Luminosité = "Auto"
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : LIB_Luminosité
+    identifier : 0x2f4d072a23f965f1
+    internal_properties : CAAAAAgAAABhhmkdADM12ABQ+3jgnbVhNQDlZYzLf3lBGtqTmcH80mkxyP5C4xHDLExJ+hU6/MLbFD7i9j7VjTrAOAyQ3lsMhh788anCIeZDrE3ZBkDGSu9Jg7oayfNVpiEU+sgvHMAlKbwmdmDtO6uRUXJXzs0BQ1YOU2k3TzqvHOYlyZ9KJS2IhdkBe1qTFfm2E8YXnYjwz9QDUJyouft5eNp497Otx23yQvWJpfQ9dGSdBsxtEDoqjqVlRaoRc4lbOgU2CYNsa6TD3tL+l8i4Lp97mc2k0nRlYXCm7FODEHXwf54q7x6MgkMzPwGGfMHr/jZRWhEHHtWJhGbv/lwJyG6VGeM1YqE07R7rt1lMb2DFQuC6F+Cwd8IaGQJ1+OsWE0UaE3V0f29Q5UB1tiNuX7VJm/kR4sLaZKLMHPc3WEoEgqd/3A/h5mxHb59vQkUIyWnzZOs=
+    properties :
+     x : 121
+     y : 230
+     width : 78
+     height : 21
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : POT_LUMINOSITE
+    identifier : 0x2f4d072a23fb667e
+    internal_properties : CAAAAAgAAABknoqqQf69qB/iQO++o6D09Dd3LXVbQbfnwi7IY/shEpfxNx6EUaFIBXUdXpNrjKf9MoyWr0v+IpRaqj0B29whnw+RlExleyZWdz3KNHFNP0yluQSdFuUfdj2k3lhfor6PotWeBQFrsea1y+3V69hn3aOIDf5eiQQ4/4qExMFbX1kt5ZSprxf0BVXoRZbkTnn1lY9DdgmIeVV6dH9TJp3XBBd+f/glb7VTntMRb0LyXaZjVNHPKib/A47E5vRbc/ufwLGebeLQp/Stf2B/5ETjn0ALxqwVcN3eZKrP2YmF+g/3OoO0JYiCx6XgGIJ+VWJsZCTD+0hLH5NpJni4++guuzNNej48BiqxxAlJ7UlxQxTfg1LrHLDEIQwqeSfY1hJhTe3N1Xi+cZ8KDvA/I1NH6xJUssn91VtFg2DvmXFpzP1w24ZXkVr5nVscADvJb1O6xej/Vh4oOyYsU2IjQN0WJj9+5xJecLeWiUy/RLu6zQ7ACkzsJFHM7kXSEBEr3OgI0pWGi717/VOVPkEtHRxHg5qrJ2wgdw==
+    properties :
+     x : 35
+     y : 168
+     width : 250
+     height : 60
+    type : 12
+    code_elements :
+     type_code : 20
+     p_codes :
+      -
+        code : |1-
+         
+         // Modification de la luminosité
+         LuminositéModifie(MoiMême)
+         
+         // Affichage de la luminosité
+         LIB_Luminosité = MoiMême
+        type : 28
+  -
+    name : LIB_SansNom1
+    identifier : 0x2f4d072a23fd66fb
+    internal_properties : CAAAAAgAAAAKKQU9fWwQJkEb7wBJ9zhBe7FVtRd/0mdIC2RNKrJWeL5wh0QwkabMtM9zVp1eQRLwynNeYMt0rX0wMV7gv3TmCIZuXZ64jhvWXl+mxvNtvCqwplVv9IlTflBbqAPEpfsEAMpXTc2jVfziH0K+b2t89e2SNHxz/gzldfjOfPH+AFyWX8MVRGwjEseFlJ36xFKw/YPtWzqtdSq5uXqzOH90DiHOD1+sK017gE693qY6wJFv71DT++1WcFxuhdeKdEKHcsES4sivMJWR18pR/V7Vz93iwALSVRbo4RpH+9D1NH85GXATSRi7eVLC4147iyjcF6qYXpYanducGQnbldIkFehfPrTbTqAh2IWEFOhxTrWhQPUy2Ylo8pcHSWZ/FbuolAj0ck/yQIjNRZ3tLvQQM9qBZpMPL2kh9+Gfp1+usfWAxOakNj/FOczglnu8phRpyLEoFrPQDObh/C4EnleyCUY8ZnyxTMimJKMLZkDlCbkuUN2pX/0A
+    properties :
+     x : 10
+     y : 146
+     width : 300
+     height : 20
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+ actionbar :
+  name : ACTB_ActionBar
+  identifier : 0x2f4d071123cc0459
+  internal_properties : CAAAAAgAAACChSs8AwPgE1mfmdcMKdWrDmg4ENPbGJAW8UnJM6DFfiouiq7a4sIv7xPmNCoYR/Fb7Bs3YYT2HBfok+rZMHJdofh5zyOq2ST36tpW35JaaNIGicB7qVlD0pz/GLZjQytFjB+iitN8CidDZ4BvzvV33gAjVvT8/k0b8GCxrZucIPBKw8sOj0xpRVSbNb1+0Z6IZIAnf94xRj/ep5Aez0a47Tr7+rWyhcFjLJGvFlqSVyNBdOSqffYMrMfnwpcY7E//78SbiR/PbJPt4f9oU2uPMzcxb/r04FoM6kNC/ao=
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      type : 229
+      enabled : false
+    -
+      type : 239
+      enabled : false
+    -
+      type : 240
+      enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x29f8144500a4e5ba
+  internal_properties : CAAAAAgAAAByVTsSr3/syDi1St8xf8fgHxdhV816G1q5zyODGkOm1npuSkYo5g/jXWoWFFK2H3oUBZtHLsT5rfRCnVFNNS0taWG501M84VhyiY2gqfWqbb5TaLNBc7/5X5PbRqVlZ5a3p7SznWjoHPbzt8FGrVw2pkxQ2AMTSCoEquPAoSRRZmCgf0llwPSIdkz+fkQsa3yCb/aARC1IuAmTNbEAkdknQHeBdhsRIWlMefD05RVbqvlMGzysSB4KUPZWTHHaQPB4ObHU/5KQ/VjN8jyQaoRgKuGxrJ5V23KTuMr/Zw==
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAABKff4sxysR+9kg8GIJ708iDvb5GJxqytSUKL54fomJ9xlu42EWUFv/+en+BSQDmdB2krqVslwL/1eyQDVw8sffQk7lF3aDfZNzV/+zROsnKAy1jaSejRR5UgML
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      PROCEDURE MaFenêtre()
+   -
+     code : |1+
+      
+      // Récupération de la luminosité en cours
+      POT_LUMINOSITE = LuminositéRécupère()
+      
+      // Affichage de la luminosité
+      SI LuminositéAuto() ALORS
+      	LIB_Luminosité = "Auto"
+      SINON
+      	LIB_Luminosité = POT_LUMINOSITE
+      FIN
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+ code_parameters :
+  internal_properties : CAAAAAgAAAB6ragasMBWLfpsSyU19J6lAvYEqFWd1xYOjmHr1XHVZOVmechqLo1vKvfoAJhHeXL59P8BudVQfrBZ/U9vpjDz5RFibMKKm/84EA==
+  original_name : _11
+resources :
+ string_res :
+  identifier : 0x1fbd44f600ab8bae
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

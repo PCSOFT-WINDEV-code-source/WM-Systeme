@@ -1,0 +1,357 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_ACCELEROMETRE
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_ACCELEROMETRE
+ identifier : 0x2f4d048118770081
+ internal_properties : CAAAAAgAAACMa/rngf1NIeZ33oEAeFEiuZbEyMyrgFWbUqwv1OELSOChXgYIcHpCOgJ1cbeYGoO+RWydpVG7zVQzN/3D8XjnIpBLz9krAaPH6zVLl+LM71aLFlzD+sqACIwgtSjOmPIR9z8Yqou9wmqBt50JbgYRrPVM6NbPSYpkY4P9AIHDrA/d/xmzoxYkDR23zPjAcw47AhjWrHVu1JwZa8XxiL0klXf5nIqEtjAwyCYI2+55gymqdfojjT/pxpY8xh4/flq0XzipVoGX218hxfiVr84LY4BjNNEvbEseJwlH5p/xulHIHkvI9bkXb4swxLZ616vyHRpA3z/JL379iBR3KHJW0oEJ58LlXHr7DVN64bsXuKG4VKEirCQyCQT0k0vUFSWIr0rysj9rkmp9FgqWq6ba3btZTT+36qaH4D2k4eKnvu1tELBJMeKXMJEHaoD19h7Pz3AdY5/MVozwMsp6cChmddUSv6ezTVNqaydSYIEcTBXwjwgDToXH3WbjzXTDYH7zLpufkTzRVZGVZZvt7jQiWFZH308GqQ4Y0UNmLhfrzSAMkX9rDo3jgxgnRtmu66neOoVK2HRj9WfeX23fola0/SxcOyeKMR1YjfOQkZJAtMXc/Hb+SZJNswxI0GloQpQqFtRL8zq4NOBf77U2ydoXstDDCJRv77PaxoWmyvbLh22GAX6WkJTg8g/uvXmC36HzeiEVAAhdr3i26EVqs/OY2MSJgvSAQW6PRYJaqgUvoTuyWxOmByxmxZxwCywyVFlGWOFXrjo76BZhtOfAmMVlxzAgy3xoSlAGfi815hEiVLk049xyFK/b++I9O7xH98+YDwiyT8The70S5tJpT/sron5yjEb5Hp3xvSkuugIn56bXGh7DoMO8rpWzOWMKRpnBRnmuB+7aC1IMMJINtg==
+ properties :
+  width : 320
+  height : 495
+  heightMin : 568
+ controls :
+  -
+    name : SAI_Latéral
+    identifier : 0x2f4d04cc188428b5
+    internal_properties : CAAAAAgAAAB5Y3Y6p0QQ4CjbwzOLMdAHbFPX4+Y9UKM/dmqyswiedlCeLJtbW3Dlo+Lzbz/o+YepowV4WftCAmdF6bkRgywmWr8XN/cyM5GiUw7bA/7HSGk7vhwiCJXswwXf95+WLvXArtNUD1BiZ/YxnqCHpPEzJjH9N83aMFodvV2N4EaZGUgpzt++Jy2h6DbvTT9LdYk0DkZU9YqT3V0XDUjGqUBMQlckwgq+0fcfLwq3Rz6OCRjpUrufM6h8k/9wb84BGrCY4nI9ZTnlSnsy2E2d3kOWIPDHnFzfvEbjOrL4e7xZqaKO+XBcosnZ7jBt24ICp7/doGfpGY4oRgob45y30fsD2IAVziOPuXNUX9WEmIS7DQwvo7ikjxJMfKfDdeJlmYJ5gmegR3tuedcl+FG4V7PvyG+YJmTb+6FWnrG+6ZKG+pg1SH8//2bIgSG6RpiPoxz8qSQ5ejafLPvWoSXmHTcvVdyWqIdl9hlwVuh6C3HqIAIYeOJO6UICmGKdDialsrcKkEga7qHaAKIdMZtSdhlhyitb6TU2CdtfzwDSZq7s/1hBqYbfnwB6t2EnMdEFAIP9d5F/L1B8kjPbdBnvaSdlje1m8BVaaf1pHT+jvoHnmetpUuAUNun0untpHkiobf0kasR9TIuYfhPUAC8mtbJaqxjE8qP+UyAefvFL+hruGjDfGsRTQ4knKaERhjAIZsEVE3J+EPy9RiVAv5LwXbg6+Ey/PBygxqSeokEQXAfE0yKyXaeI26+/uD/Evz2JfWhJO0L1VBMk9FPxXQ32ql/YSdIfwNf93SDW8LVPOn+COWaxAWZ5rLis8/Hikxp9DpNXy67HAOqFFzqYoepNu7zARkOLrBqh7e24JwV6MK2nohpDdV3NUYrf1o15lWiQoXIMfi74zvhyrRB8NWL9b7/qKOw816yFoWRgvODFZLNycpC0oy8kmNHMJml1EQeJDHQSUazgA3jaueEWQJuYHX0p3Z055KEQZ8YEiMwoZq5wPyCimmG2yTQWJS9wCVL7QAvaw1kr912neRhH504DqpteR5DwzLRZNkDraB1cC9cB6+Iws4rYLEylZIv4CQGLy9KggLp0qF+fjMOdzTldbNmjCXb6
+    properties :
+     x : 9
+     y : 8
+     width : 94
+     height : 48
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : SAI_Longitudinal
+    identifier : 0x2f4d04cd18862942
+    internal_properties : CAAAAAgAAAD9RQGtd1jmunluJdd3zg/Lg7iNdwDzHQKLO9RnsmwAuVjSmdPM1KZOlJ2oN0K7bsAfDTu4m+Wnz0MzPKoI4yiY+RIXIAY5KWdyv/0WxbjOagdhbsk0zmjVQuElxaG/jL67Z0zKRuQkxtAlbgUt5YV+7ZmQ6IL/xuDNgBbZfOCjXxajaZr2CHrFinXbIpIhtxNmMFhjmAGcCDn88BQxwbGJtyebT8qqM9Ii5MkwvjK1K3Mgf9TRvj3/Hvi3b9gnDkQ08a1jg63IOZGpbZz7c15HpCclYCJAgFiEy4XjdOUU7wp0Kg+/gke7nUm6a/22TdfRQvCf2nkkOaGrw409jpf7do8jywHHwhYllh4AnunX5rXpHkvaohkROxMeL4XQ8OIgl1Rylg//gr+9LxJwh2AaWGi+c4XM1bgEKnmmPd9Agxwo+itjvC0tbtJkLJBdkKMSUGWMlxxUv5oL97IeR9HBAYCmIgqh1x8Obs/wJK5qhnQPWOeD0a1sSCKGcDVNthPBBSVWAUZLX20PKeR1Js+9dIQPZvKtDrZ3hqxAkwzFg/9wx/8gwsN/r+++mwv82OpG5+kkkfaSOMA43Uk37o+ngdEzZnt2fM7LmBTmasM6pMvzjpvK6t3XD8VhmLWOoSIUOuPrLFEt5oYCZenJCeDocM7D5S6m5LLlbNjO4at6Q54wU6X+nxtTTjWDc4xaaXXGvUlfB+i4M70myH0jwVy2Gvu613VKNbUlGWiaUxFk3ShDhLX4ropJbqzoBEp22SujawZa26RMfBrJNzTNbUE3Q57V+U7C9fKE/13+pHMMwlob88uso0AUUE273dX+yijHNTIm6YfHKc7lXQ/T5cRlSo78PzlOK1sWzkEPIkDTb+Bnd3iKUMRpgf88jperHUsy/vKb9xVE/XseAmBMYPt+2rxojCwrEFUowW5ARgfpyrmLsisP5dfGAHMBrtVil0DKVfpvxOO4h0uVWPQg8Uy8iormz/oyMsURdhbEw0eVz4we9+lARGhz/fHOaydsaca8PouN9EGyXWScy3Q/haNRIr0DAd/DPeO2Y7v2TCo4Cbrp9CWY+fSLdCiQDqgjq5wEbCo7Gfwdw9p/xoLfgvS0FU5k3iJ5
+    properties :
+     x : 113
+     y : 8
+     width : 94
+     height : 48
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : LIB_Libellé2
+    identifier : 0x2f4d04cd188829ce
+    internal_properties : CAAAAAgAAACULxhYK85oDVJidJgYzP/Zm5YvS+1gW3h1gc6W4zn0exKVz/B/qCOs0rSOXImLtrSMGpadOzttoC1K8VdgltcRHE1ry/7jv08iwk4AHYqWSPHN6s7Zx8L5tmLQ/i/Oyy37rad5J42ImIX8WKANRvDCYIPVyGkIzqEILaQy63gltXncwChHTVUNDHHZWiE2pLki/egqQBHZlXuEZoly8I6nkm3T7PwLEsfAnijvaEqwgwhuYnbS+P1EBiDsjfhidNMxcEVD03Vbq+fRCvKSEp+AvcT5wYMPVk/4D0dABkRsyf8ceTDZmLDLvviIAWmueGRZKcPzBm6RQn/APLAkWJxub6WGr/8bzdY+mhCtwB3ZJ5ODmH/CvLJho7du5Yggxnso6FyeFEL/CkMJfhED73zeiviuAiugMOYRhQCBeqS9RIon2fUZYluACuzqIlgh1Vgi5oMvSkg8P7abbVb3oNKNqSf01pl6I+rPwDA9Y6DIsfxxSB+KjqBw6C32LvPW82YU8maOyC1L2VO4IdH4vxhFSNnDBzM=
+    properties :
+     x : 19
+     y : 72
+     width : 282
+     height : 64
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : SAI_Vertical
+    identifier : 0x2f4d04cd188a2a6a
+    internal_properties : CAAAAAgAAAA6Y9ZV1A6k94uHbLqoQVs/3OqWB5jXqg+J64T+IgrVY9gMfRnUL7HJUE3dhIMxYgI+zav1ZUU3FPn8yRoHcHrU6Fwxm/tj6I2YX27b8LCql5Qe1KXb00mnKrmwg0SGwGU8jDtTiNOdFr6luz+3vgy4Gzca623eG3dCvlyat+m/VRvSRT52vF2Qiolk7xvXuCOAqgZG3m+uSf6uYlS1IJbm2QDA4LJf+QKNltJg16stpdtDxkRGbawjSFdMh7PA2iqhFfbhEcHV+kq//YwfTDP3jwa8tugHuA9CE/Htojt6vR77ggX/FC+P6Q4l8UyzUkheQ3+KmOeoM64hO2vnhvGhtVCFaHdke7uCV5K66bMeDrWcJd6LXXcFxJCL7hIvxS3F1sw36yj75EvHoaQQciDp/gZTeAFa9TGjtVqpNzxlwqsFFWWK+REdBGe8ShellTmeTbHfQ611Fz9++XNKxLmLWWIXiQ73g4NViLm3Rkwr2IypSzEFxmF2qFbWm700tMpZZQ3P21FaaMjO0NQnL+cadYyPm8eR+vgswwpdFIZWQAS82MRsQNMKgeCtaf568QaqQd6PWltdQgnGBEd2+pg+uGmVyL69OkHf7mELi2yWsjbZrQpN1W7cDMo1rklJ3l7LMAFTiXwzmg057ldRdi/NoH6HrMDHNjTASyv9Be3hK5flEyDU9NxZVQCB3N8fnQKQfcecZW0QvAmJUUrdOLvPi7ocnq/Df2AsS/Um2UxdcOXeTnPDigQVRFaYrXwk7FEkwWPr4VBLuC2QKdl3qbIRjDSkmKoUmiq68ZFviYyjaLOxQGwy/6m8VVZaN0++uzwq1ZM/258M3Z6hQzBmCpMB5VX02qnKuLcEXsd8jfYwneM1PiXAog3x4szP/xkNfme/TkPA+7cXg1DXtUYApKy7x2SRcUcYGhpMnSD767grD4v4aBvbLbgwgEYNtyqyEQ0xmzmSXtPj3zHz1IEToNSABhNSMATBuljQp9j4TaclfAMkM9nP9DXUHdSSFS9yzwB9y3CBQK3Ov76gPs0So1yw78hDm1VR3dtpIyHe8ZaL7v2awG1hDPCAPhqou7UYu8DemAnnlB/17Jzt1iUpeOHP7zfbkZU=
+    properties :
+     x : 217
+     y : 8
+     width : 94
+     height : 48
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : JAUGE_Puissance
+    identifier : 0x2f4d04cd188c2b07
+    internal_properties : CAAAAAgAAABpF1ZLUTZ+Md0qSGZuO60+zdEq28Aj+Da2s8jgCJXHzI+CoTL/Ux1LNRUJPGMMKiulZHBUyjB0rEP17/4RfE20XdIjoBPNscQOMiz4ldZyGUJziZLp9lR0BAatiw3PRkSb6PlCJgwKx9OVKjMVaS5LLlnzfHxRJFRzQoabS+zi4nN2b7V2EpDakcxOmLwS1vdoR6UGECEaVvazZLBpdTIKLT91Eb9O29aWV/ACozUAji1GSp+TYlIIeNUj2fMVKSyWEbdnTkNFOe8nDznQ/gl+Q6MCDqdX23LK5/yk+SIb4FeMPQqLOaBEXSi2nk9hAnm6vrQU4aHTKtvtRzUHTinjs2ZJxg7Bh8eEQek8akEoXqrtjHqXMN2xU4i0i7s+zR7pQ/s7fB46xePnEQLuQ3oRKvzWKwRKvxbTsSNUPIPibkz4PmtUmujQPcwYpR71W/2AeppzEwa5Zol2OD1frA4fT7GXAvWjX1UzpPBR9UqgM18OAAtV8lO1xIQ63/SBNgfGgszqSmWfyD8dv9ZqLgYoGnjJWz0nGJqpRF4zK4pypuYaGbv0RR4dMPJH+ljCJn/QrinQYARg6Q8AtJv8A13iGZg8pDy0CwPYimXVLW+JDe2/Ebpcwy8NxsSeeD53D+lAjjxTYcf+5X7+3kELgihZYr6eFS5Lu//Govndqvo5WFfuVe6EQFzihxVrENd66V8Tv4vtfZyzmGBzAc1Dg6dX3hWgafomvdE25h9esSkD6LnN83Y0wsZAxXj/5BR2TyAjn+cYddVOuX2c56UuMYMQqpHF+4reKxCVeyt0LuO02tqWbAs=
+    properties :
+     x : 86
+     y : 147
+     width : 49
+     height : 188
+    type : 10
+    code_elements :
+     type_code : 17
+     p_codes : []
+  -
+    name : LIB_Note
+    identifier : 0x2f4d04cd188e2b93
+    internal_properties : CAAAAAgAAADHCq2HOMUNk9lvsPM/XRmcigzJtf5hxsslQ8mo4o1sPbfbYODtmSBgrXlCDKB8joqfSxS+JHeGwIljB7oz3PA0ccXOM3U7LHx0cKl89voWpYPtBaG6ND5k5hyRLjFGKATL2dFTVkFiwbLkWAdaClG+Yh93Dwmr8G4NHX/0AwKGU99eioCE3Dx9RlqsyIMhFWiOXhVrYWO0FlAMQ0iS8rWEqVbn84/hSmht/4wQT7aVVFtI/34PtA6LQEqlu9CMBe0fo0ksgl2YGf0pLE4Y20n20W66XpaJ3EEOV/EBAPacGZN+jcpvALva0eVxeaMfFWZk01IDzcZCZb0/h+onivUrzkhHOfwjqwFTIEAP1OubrYPWm9oTkx+nAL/oAyGrl0n59Tt7rliAZ6iC2T54eOLlh2GginUwAyDQTP/2lN3s5TuTRRvwQ954Dt8B+6j85bol4Gpm3g==
+    properties :
+     x : 150
+     y : 174
+     width : 141
+     height : 56
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : LIB_Commentaire
+    identifier : 0x2f4d04cd18902c10
+    internal_properties : CAAAAAgAAAA2XWAn3br9b2ik4z6BfzAxVqKMFt2sFJNrZ0E96IB+JOR6vZrhhnynT0DofszOH4Eso4MTG9I45U6KCndc7yJXx1rzknOAmylkrsG23z7U4/d4etRH7xmR+iuYl4gTIGy+d8MnNpjMQK4oz7bh4pYfSNJnhorZ0jKWayo3i0BNwUk14vxsv97J0GPR9o1I97Yx1TJ7cCUqKr3IYc7IxkR197Fp6wpE0Z/cURNBouhxfbNz/Zr/9OTVKh1dlOCqvh5Z9h75z0HVciWjpzqKCxppDQep31ZF88zCDQjEVnuB2gstVS6cAhmszhTLgd/jg1fXvGkrKRrSd/XSl6A4Pfe1rVDqTXznhA3yYvGhiFjOM4sfac8C4L/RXjAWLXso3ybvFY43M7EnwYAjsXsBFpPyEfQd8qtfJ1sZ3AIdVvI5Og==
+    properties :
+     x : 150
+     y : 251
+     width : 141
+     height : 90
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : BTN_Réinitialiser
+    identifier : 0x2f4d04ce18922cbc
+    internal_properties : CAAAAAgAAACIkbmab5YpvT8/EHDsQMNRwH1AtnebmPVHFTNGp/jkNdiZ5gNBcqmpIARsphWHt10VMVzrRdNhI05mbKYmkh8h1kpCqvNU36ENOBD7q03h21GGvOFFhGpGupHTmvssOS91h+h7PHItLUXbLlZ0955tzw5DuVWCxRJ6INyvu0Ba594YInmE11ILwfcJgPJ+8UNAuLbHKkp6aFcbHSHwG6ek8B6fjoD1Bb23Qh+TFRD9NjLOpCl3UP90m3RSo9eNIS+gc26lxDoPE2OT2EUEubjJLhC0bpAnWQ+LGYWaswHtUOlBsbfmebPGouDRDeaeRUyMK+vyDIp2L47+jGhsBQvjPl8nguKxKL1kLeqMaXrQtjWyboh6sbb2C/woqdhZNO0nJTBcydR3ogN+G6lj2YmI+XPlfGDDY4SJwfNw1DNykiLNgCIb+LAvRuL6ZrPj7oNbfTkhVEhIkMnciUbP6CXGPT7vGs0j8qtJvExVAsapi+KS+N2MikCp850wy3vaFAzcMNYlMxpHnUoAbWr95ptAhjsO3yUykcVt0rPYcl9UXxIM3d1NZHvL3tzSx+g7Rzc6sslJDo2ghR8j3ixRMSvgaiyrYz0W0jdF5Sa3h7dA6Pg+SkfYsqj14c0A1FAvyC5Q3S4IaJKsIIIxloqMasVa0onG2pVq4hddug9d+oGaKDwyiLfKzedhxYQDbgbfqO9xud2a51m7tZpLmLPaQXRbpaiDzMpSY+KGJaq8MQAxBGd2wHWkaVdkjvr7wrkvXDr4UCThJbla8Y2DTP94hdqu+UJ5HZSvOr0GcuNU2go5oiqM64WrwnKRgKe7oKLzvZqgtoMu+DJqLdSpf7jEEPM9YQZNx1nc5xe6DCVuUk1m7aIeEmYQRgcKo/2DJRi6v2G/DSkDJw==
+    properties :
+     x : 72
+     y : 359
+     width : 177
+     height : 48
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         
+         InitialiseLeJeu()
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+ actionbar :
+  name : ACTB_ActionBar
+  identifier : 0x2f4d048118780081
+  internal_properties : CAAAAAgAAAAbDqQHSFzJxOLI4I5X2iDGV8HZM7B8PTX7jiQMzuWEPWvvy/ELA+PIyHQBW8054lzgCXiKCnlfeTwV7q2MhaEkNXRZT2UOtXg7PhgEkcKmlPYqTfwNhVVrGtT58px/j9etVPcScLNcqqcT2RIdQsWc+23Q/eXtD5ycQScijuxrYYGjxNbT1HEEAqFuSpqrCGfBHTniNEO+ncg3Gn0fqG9nOo9AJZiXYBqIAeYSsb83+kRiFUNJnhUtjfioAdbZrY68LIlG3MxykfSOAp7P/MBiZOBqprE9NzPVIwy5dCM=
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      type : 229
+      enabled : false
+    -
+      type : 239
+      enabled : false
+    -
+      type : 240
+      enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x29f8144500a4e5ba
+  internal_properties : CAAAAAgAAAByVTsSr3/syDi1St8xf8fgHxdhV816G1q5zyODGkOm1npuSkYo5g/jXWoWFFK2H3oUBZtHLsT5rfRCnVFNNS0taWG501M84VhyiY2gqfWqbb5TaLNBc7/5X5PbRqVlZ5a3p7SznWjoHPbzt8FGrVw2pkxQ2AMTSCoEquPAoSRRZmCgf0llwPSIdkz+fkQsa3yCb/aARC1IuAmTNbEAkdknQHeBdhsRIWlMefD05RVbqvlMGzysSB4KUPZWTHHaQPB4ObHU/5KQ/VjN8jyQaoRgKuGxrJ5V23KTuMr/Zw==
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAABKff4sxysR+9kg8GIJ708iDvb5GJxqytSUKL54fomJ9xlu42EWUFv/+en+BSQDmdB2krqVslwL/1eyQDVw8sffQk7lF3aDfZNzV/+zROsnKAy1jaSejRR5UgML
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      PROCEDURE MaFenêtre()
+      
+      
+      gnVitesseLateraleMax							est un entier	= 0
+      grAccVertical, grAccLongitudinal, grAccLatéral	sont des réels
+   -
+     code : |1+
+      
+      // Mise à jour de l'interface périodiquement
+      UIUpdate()
+      
+      // On lance la détection d'accélération
+      CapteurDétecteChangementAccélération( DetectionAcceleration, cptVertical + cptLongitudinal + cptLatéral, cptFréquenceNormal )
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1+
+      
+      // On arrête la détection d'accélération
+      CapteurDétecteChangementAccélération("")
+      
+     type : 2
+  procedures :
+   -
+     name : DetectionAcceleration
+     procedure_id : 2255463983453382545
+     type_code : 14
+     code : |1+
+      // Résumé : Détecte l'accélération
+      // Syntaxe :
+      //DetectionAcceleration (<rVertical> est réel, <rLongitudinal> est réel, <rLatéral> est réel)
+      //
+      // Paramètres :
+      //	rVertical (réel) :  correspondant à la mesure de l'accélération de l'appareil sur l'axe vertical (Z) en m/s²
+      //	rLongitudinal (réel) :  correspondant à la mesure de l'accélération de l'appareil sur l'axe longitudinal (Y) en m/s²
+      //	rLatéral (réel) : correspondant à la mesure de l'accélération de l'appareil sur l'axe horizontal (X) en m/s²
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE DetectionAcceleration(rVertical est un réel, rLongitudinal est un réel, rLatéral est un réel)
+      
+      graccLatéral = rLatéral
+      graccLongitudinal = rLongitudinal 
+      graccVertical = rVertical
+      
+     type : 458752
+   -
+     name : InitialiseLeJeu
+     procedure_id : 2255463983453448784
+     type_code : 14
+     code : |1+
+      // Résumé : Initialise le jeu
+      // Syntaxe :
+      // InitialiseLeJeu ()
+      //
+      //
+      PROCEDURE InitialiseLeJeu()
+      
+      gnVitesseLateraleMax = 0
+      JAUGE_Puissance = 0
+      
+      graccVertical = 0
+      graccLongitudinal = 0
+      graccLatéral = 0
+      
+     type : 458752
+   -
+     name : TraiteVitesseLatérale
+     procedure_id : 2255463987748481960
+     type_code : 14
+     code : |1-
+      // Résumé : Affichage du jeu
+      // Syntaxe :
+      //TraiteVitesseLatérale (<nVitesseLatéraleMax> est entier)
+      //
+      PROCEDURE TraiteVitesseLatérale(nVitesseLatéraleMax est un entier)
+      
+      // Si la vitesse latérale est supérieure à la maximale on change la vitesse maximale
+      SI nVitesseLatéraleMax > gnVitesseLateraleMax ET nVitesseLatéraleMax > 1 ALORS
+      	JAUGE_Puissance = nVitesseLatéraleMax * 5
+      	gnVitesseLateraleMax = nVitesseLatéraleMax
+      FIN
+      
+      // Affichage de la note
+      LIB_Note = JAUGE_Puissance + "/100"
+      
+      // Changement du commentaire
+      SI JAUGE_Puissance >= 70 ALORS
+      	LIB_Commentaire = <§$0000§>
+      SINON
+      	SI JAUGE_Puissance >= 50 ALORS
+      		LIB_Commentaire = <§$0001§>
+      	SINON
+      		SI JAUGE_Puissance >= 30 ALORS
+      			LIB_Commentaire = <§$0002§>
+      		SINON
+      			LIB_Commentaire = <§$0003§>
+      		FIN
+      	FIN
+      FIN
+     type : 458752
+   -
+     name : UIUpdate
+     internal_properties : CAAAAAgAAAAAU6ulE8z2T7NxaKH1bduq4k3yAC7oLCQ7OClVongR2b4wI0npbgfPVKLmXo69L0Jt2vs0c2zzhK9GEn2ZWFLFVHq6BnYDtxhkl0mH+PFVBxQhgisBDlobpXhKoaczIlSPTBzB85eCgknjzcN5cmQoXHToMjyw/XmzmzTB91jNnqcJAQ==
+     procedure_id : 2255463987748547855
+     type_code : 14
+     code : |1-
+      // Résumé : Mise à jour de l'interface périodiquement
+      // Syntaxe :
+      //UIUpdate ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Procédure automatique :
+      // La procédure est exécutée manuellement, lors d'un appel dans le code
+      // Elle sera répétée en boucle, en attendant 20 centièmes de seconde entre chaque appel
+      // Chaque appel suivant exécute une seule fois la procédure, sans timer
+      // 
+      
+      PROCEDURE UIUpdate()
+      
+      // Affichage des vitesses
+      SAI_Vertical = NumériqueVersChaîne(graccVertical,".2f")
+      SAI_Longitudinal = NumériqueVersChaîne(graccLongitudinal,".2f")
+      SAI_Latéral = NumériqueVersChaîne(graccLatéral,".2f")
+      
+      // On traite la vitesse latérale
+      TraiteVitesseLatérale(Abs(PartieEntière(graccLatéral)))
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAAB6ragasMBWLfpsSyU19J6lAvYEqFWd1xYOjmHr1XHVZOVmechqLo1vKvfoAJhHeXL59P8BudVQfrBZ/U9vpjDz5RFibMKKm/84EA==
+  original_name : _11
+resources :
+ string_res :
+  identifier : 0x1f4d0475016cd347
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+  strings :
+   -
+     text :
+      fr-FR : Excellent!!!
+     index : 0
+   -
+     text :
+      fr-FR : Bien
+     index : 1
+   -
+     text :
+      fr-FR : Pas mal
+     index : 2
+   -
+     text :
+      fr-FR : Peut mieux faire
+     index : 3
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

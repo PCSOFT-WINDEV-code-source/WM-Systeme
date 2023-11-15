@@ -1,0 +1,143 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_BOUSSOLE
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_BOUSSOLE
+ identifier : 0x2f4d03e21854956c
+ internal_properties : CAAAAAgAAAAsGQCulg1jX/Pnj9NsjFj+vLkA2ihDmo759AKH9ojuQnO4i6Iao1eblYkGauuLXzdIdlQADRDtvTLIXYbDemQfdi/3kv4Jzw5oi9BI7EOlf25JQTpCxMdbPR4K2AX7M5VNViLcaQpMiSNG4HGAKbsvRuQ7Mjxw2Msd3ge4iz/KiPXpmS8zF17L3HF86O86RAIEhnmYKJamcr8BJaQcFo+zNC6Ll1dEUTIrve7lcj7cdcLHYnB29dmM+Akmg9QTntV5eHQk4mzvWKAR/bZuooow0tkR2aaKvU4cccDxWRtVLZQ1r5mcckO7fxWtdlVfMCbP3GSMXvEfCatbNjkqK09sAzLwkDlU1AJshZAHYvi4mOqaVX9mJVjiFS6jPtB0VxIJdNQ3bT0DfEizWUI9rGiq4JU1nhjoRtP95iCbMt86rqJFIOSRJUf6zbM6C0VXPs9/8LlrPiFg1+Vt28VSjcz73OC6lSj136p/PPgNdGLCd9CHq6pAFkHupHkePgJCGFXUW93zqOzLFOwUjgb9s9JhGy1fAQ58109nhIxpBjjlCJXViT18HtkcCmuWsyPNgfD17ccO+RxNDHTv1HwLa2i/upXA5bzq3/KZmnaBad061+6pEtYzHVhgztt7YRfRPMHTY3hlmL5ik4+CFiryGEKMO42FaE+Zr2Qnf8bR6Okjyjajt3JFAqZB4Tr1EuEtUQaAm7O5J87rbIPVZUyOfIHrp//PagFahf/u2IfB8mqhiAZRZbPJqXIbBG9LZD6AD1JuznE4AkRGgdVrAuZsf+XXVlJG2+qpfmu2bcYZ3DIjY+PKlBrxqrMqvP1PfetDYoJvync8AXrrzHpCp+PhiKFsUKvWV+oPa9TPLbCsMeMh1PJp4YXNVvRS6VerZuuSCxg=
+ properties :
+  width : 320
+  height : 495
+  heightMin : 568
+ controls :
+  -
+    name : IMG_Fleche
+    identifier : 0x2f4d0420185988b6
+    internal_properties : CAAAAAgAAABanGsmL3nbtP30fslTCEnhnWTU0KKBt3gyUxCQihf89XraBjTYZhR2xf1nMdEpkqhj1/0M0zKLUcKGHRwEq2kEyLQ8IjIY6fLqf++7Bxr2rOPfWOTeXBH8+c+4KQ6i2U/ndT9ud4tl4WdL6YKRnGdmzseOVRfs+IqV1IqhqxMEteColT9tXj7pH94SY6g/QcJtvaqKU5a/OSITf5O02TDnMCnuH8S0yUNyqEIacC/gO9TXlO+hzjX7ZAVjF9FjzEsnnBJ5fwWUSyYShLlnrAlibLipwUaGJVAzTKoS7uYAidcPwbCME5mEVCX3cI+qYj9PV22zZGGzApJ/EfvIBg/I7X6/2FhmlrYSd3igREFxYY+3i8JIoKrBxofyppgm2CY/ZgGRhg16aPsEUa/AJJ10tqJyfr4p6pnEWM9QxFz1wK5he66HnaV137V61uCZ05oruSysQfZES4bWZrxnJWnvqwx3i6FAm1UMdVTXrsC+Q9cOgQ8D9FwvMCwxfkqANYTYuAYih9hKTN1hqA25LJgOi4vupFAJO9pmfMkH2UIGX+V9wSpV77rW5RnbrrTsOH7DF+KRkeyNxDahkce0TA7ApMRzDxgZ3l81pi90i7HGDzLEyo14AX8Aci7B0m/RPSRXn71AsOmECElfSx4Bk2YF0MVRoWbpo5HUU+EGawnd2VMxRVNOPke2E1H1Ur32YKKOYseYdjSVmpgVtd9Z31dstgqsoL3LGQQ4iXxqfCwGBFeYH34o1Gzx8/Pl0Nc5HPKF7KiImDbMjeOUTml2jUEakNoInSf6LqBdQpYFpZJVK1+5t1MLWz5widQxKmw3jQ==
+    properties :
+     y : 13
+     width : 320
+     height : 320
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        type : 18
+        enabled : false
+  -
+    name : IMG_FondBoussole
+    identifier : 0x2f4d0431185dc7b3
+    internal_properties : CAAAAAgAAAB8h824iFmdArBOVWKFS8/QonUvmvJc3SC0rUo62bZVMzTo7UwS49R1ai87IS/GOakt1ydbh6+Tt4i9QyhaYQgSrYMTabzuIXa/GJPOIM/c9sKeVM6RSePglVHvpydEyH5dQVwX3H2E6ZXsYCBqjYt8x8CIEgptqM6WDljS71HVf9Qnh65SY1KO7sDk9uZJnIkqMMBb6EGhJxoXUjTRtv8QRGUCazWlhWamcYaMhWZ6dBnEwRj1+pDKZM/z2cUU+Me+jUzgQnrRZX+MWn0PAHUVeIQqsKUy48GrtD6AgXpquWML0m2BdQncTTxAhRwtFAKgQsPeGteOxbeV9nRzrI4ZITHyTlYlruSWabzPiM8+sImHFpHL5pJWoDDxXdarFmkFqVlpaZRsXXsO90SEdm0mmxzqM+VCoIYKP3Ld9UTFRyjTQSKr7Brz9Mb+5ezes+a37+EyWKTy795IejQXmKLdvR14mliRemnuWU1TENeQPrJvhteFToN6/lo7CPj2D5D9VTcy+VvPdWNV0Mmnzy7jAxFIZfyTyAktNbUFQxPgCiNx2VGmKYWq2H6PcjSNpMl/rpdbXevGW9SHo8Uys14/IrCbWgVpPwJlTrNCBfjsPDAnQSWFalDSpKeDDPJDdGcW9jKroCBY69EDnkyjVEImj9kgLNnWFNyt0xe4w058+es/jKAhp/dKemb1gFolfOz23n8Pp+vW8mXZxdeVPuPgm6FOObyTtuO8xcZWDB9DJIoHYjll1zrzhgc9CeinA4yHt0fZ0+ESErqvtdNWSio9GkU/rg9QWBgINvEXB4sansUMG0JORf4DVQ2kaUNhFWn4
+    properties :
+     y : 13
+     width : 320
+     height : 320
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+ actionbar :
+  name : ACTB_ActionBar
+  identifier : 0x2f4d03e21855956c
+  internal_properties : CAAAAAgAAAAiJQucI+PA8/k/eTdsCTXLbsjYMLN7ODD2Uenp08DlXspO6o76wqIPjzPGlIp4pxE7zLvXQaSWPHdIMwr5UBK9tOuse5d67ciHQsLCI3KqqGImfYR3CX3fcvRndPoT05tV5EPGJnPQLn+7R3QTxgU9GMINAMYuSFcV+mJ/Ny1OVoKsfUUIkRbrR0YF+7/YG3TiPupBCaD7kMlYod6oL+bYjVqbWlXSpeFDTLFP9nryNwOh1ASKXdZszKfHIjd4DG+fD+T7Kb9vjPONAZ/I88tvExcRD1pUQDosyqMinQo=
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      type : 229
+      enabled : false
+    -
+      type : 239
+      enabled : false
+    -
+      type : 240
+      enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x29f8144500a4e5ba
+  internal_properties : CAAAAAgAAAByVTsSr3/syDi1St8xf8fgHxdhV816G1q5zyODGkOm1npuSkYo5g/jXWoWFFK2H3oUBZtHLsT5rfRCnVFNNS0taWG501M84VhyiY2gqfWqbb5TaLNBc7/5X5PbRqVlZ5a3p7SznWjoHPbzt8FGrVw2pkxQ2AMTSCoEquPAoSRRZmCgf0llwPSIdkz+fkQsa3yCb/aARC1IuAmTNbEAkdknQHeBdhsRIWlMefD05RVbqvlMGzysSB4KUPZWTHHaQPB4ObHU/5KQ/VjN8jyQaoRgKuGxrJ5V23KTuMr/Zw==
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAABKff4sxysR+9kg8GIJ708iDvb5GJxqytSUKL54fomJ9xlu42EWUFv/+en+BSQDmdB2krqVslwL/1eyQDVw8sffQk7lF3aDfZNzV/+zROsnKAy1jaSejRR5UgML
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      PROCEDURE MaFenêtre()
+      
+      // Image de la flèche
+      giImageFleche est une image = dChargeImage("flecheBoussole.png")
+   -
+     code : |1+
+      
+      // On adapte la taille pour l'exécution
+      IMG_Fleche = giImageFleche
+      
+      // On veut être notifié d'un changement d'orientation du téléphone
+      CapteurDétecteChangementOrientation( DetectionOrientation, cptAzimut, cptFréquenceNormal, 2 )
+      
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1+
+      
+      // On stoppe la détection d'orientation
+      CapteurDétecteChangementOrientation("", cptAzimut )
+      
+     type : 2
+  procedures :
+   -
+     name : DetectionOrientation
+     internal_properties : CAAAAAgAAADn0eYtfZUX8gBbcHz5rZp5+ue/PJ8YvIHPff78nCGJCZei0CT1Lp2dtnUTWuBOM6TFSLgYJh7vI+cOTa6HWTXNxHjxHHgxIWPJq19V5aOfUxQXhQ4NKZ8zqusCvoUFIQu6ZVIfnJruxogq24A=
+     procedure_id : 2255463322028265648
+     type_code : 14
+     code : |1+
+      // Résumé : Procédure callback appelée lorsque le téléphone change d'orientation
+      // Syntax:
+      //DetectionOrientation (<nAzimut> is int, <nPitch> is int, <nRoll> is int)
+      //
+      // Parameters:
+      //	nAzimut (int): est un entier correspondant à l'angle entre la direction du Nord magnétique et la direction de l'axe longitudinal (Y) de l'appareil
+      //	nPitch (int): est un entier correspondant à l'angle de rotation de l'appareil autour de l'axe horizontal (X)
+      //	nRoll (int): est un entier correspondant à l'angle de rotation de l'appareil autour de l'axe longitudinal (Y).
+      
+      PROCEDURE DetectionOrientation( nAzimut est un entier, nPitch est un entier <utile>, nRoll est un entier <utile> )
+      
+      iImageAvecRotation est une image = giImageFleche
+      
+      // On fait tourner l'aiguille
+      dRotation( iImageAvecRotation, 360 - nAzimut )
+      
+      // On affiche l'aiguille
+      IMG_Fleche = iImageAvecRotation
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAAB6ragasMBWLfpsSyU19J6lAvYEqFWd1xYOjmHr1XHVZOVmechqLo1vKvfoAJhHeXL59P8BudVQfrBZ/U9vpjDz5RFibMKKm/84EA==
+  original_name : _11
+resources :
+ string_res :
+  identifier : 0x1fbd44f600a08b5f
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe
